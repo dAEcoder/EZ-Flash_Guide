@@ -16,15 +16,32 @@ Make sure to follow the instructions provided in the thread for how to:
 
 
 
-
-
-
-
-
-
 ---
+Custom Cheat Code Conversion
 ---
----
----
+Go to https://gamehacking.org/system/gba
 
-I'll come back later and describe cheats more for now it's on the main README but will be moved here
+Example Explanation = https://ibb.co/CqJZDkx 
+
+If you see ROM Patch, It means exactly that, it needs converted to a ROM PATCH 
+- Example Image: https://ibb.co/CKRW83mB 
+Someone helped me with a ROM PATCH for Shiny Pokemon in Pokemon Unbound (and explained how)
+- https://gbatemp.net/threads/ez-flash-omega-ded-i-need-help-with-custom-cheats.671909/#post-10667087
+
+Once you confirm that it is indeed RAM WRITE you can then convert it to EZ-Flash Format.
+- You can convert it Here: https://ar2cht.netlify.app/ #
+- All my testing so far confirmed same results when it's a RAM Write = Works
+
+
+> Example Game.cht File
+
+    [Debug]
+    ON=B578,7D,03;B57C,F8,00,A8,00
+    
+    [Extra codes just put a space between the codes like this]
+    #Extra ON Code here and these 2 can be repeated hundreds of times in 1 file. (basically how ever many cheats you want)
+    
+    [GameInfo]
+    Name=2377 - Mother 3 (J)
+    System=GBA
+    Text=vicente
