@@ -20,6 +20,22 @@
 
 ---
 
+### [🖤 SuperDark-DE](https://github.com/f3bandit/SuperDark-Omega-DE?tab=readme-ov-file)
+[![✅ Omega DE Tested](https://img.shields.io/badge/Omega_DE-tested-brightgreen)]()  
+- 📁 Folder: `/THEMES/SuperDark_DE/`
+- 🛠 Author: **f3bandit**
+- 📝 Notes: Sleek minimal dark theme for the Omega DE kernel.
+
+---
+
+### [🖤 AquaBerry Theme](https://github.com/mewoocat/omega-de-kernel-AquaBerry)
+[![✅ Omega DE Tested](https://img.shields.io/badge/Omega_DE-tested-brightgreen)]()  
+- 📁 Folder: `/THEMES/AquaBerry/`
+- 🛠 Author: **mewoocat**
+- 📝 Notes: Bright and playful design; one of the most visually distinct community themes for DE users.
+
+---
+
 ### [🎮 EZ Flash IV Skin – EZDS](https://gbatemp.net/download/ez-flash-iv-skin-ezds.28738/)
 [![🧪 EZ-Flash IV Untested](https://img.shields.io/badge/EZ--Flash_IV-untested-lightgrey)]()  
 - 🛠 Author: **Kiaku**
