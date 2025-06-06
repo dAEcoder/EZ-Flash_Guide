@@ -1,6 +1,7 @@
 Chimera EZ-Guide
 
-![AI Generated Image]([https://your-image-host.com/yourimage.png](https://lh3.googleusercontent.com/gg-dl/AJfQ9KRFEK5xvYizQXO_zvuqo7G17ivy2f6aDefDf-XWQis3AK9fSinoI6A9bA43e05Wa-YGpRxrVPOlIfoGdTve2cE9sKkNmd0ANZOO9mFarJzvkzLVa2tEQ6zNsbzO-zQXQCobMVC3HBMc5iXtNE1UeMI2wejtZGOi7u73nG4V_8T1O1J30w=s1024))
+![AI Generated Image](https://preview.redd.it/ez-flash-guide-wip-v0-ya233huuec5f1.png?width=640&crop=smart&auto=webp&s=8034efe09c23aedec139a7fa365e29e96434239e)  
+
 
     *Someone is more than welcome and encouraged to make a better image (credit will be given where credit is due).*
 
