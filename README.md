@@ -59,7 +59,7 @@ Each flashcart model now has its own dedicated page for specs, features, and cav
 - [2018 – EZ-Flash Omega](./Models/%5B2018%5D%20EZ-Flash%20Omega.md)
 - [2019 – EZ-Flash Junior](./Models/%5B2019%5D%20EZ-Flash%20Junior.md)
 - [2021 – EZ-Flash Omega Definitive Edition](./Models/%5B2021%5D%20EZ-Flash%20Omega%20Definitive%20Edition.md)
-- [2023 – EZ-Flash Parallel](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Models/%5BNot%20Yet%20Released%5D%20EZ-Flash%20Parallel.md)
+- [2023 – EZ-Flash Parallel](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Models/%5B2023%5D%20EZ-Flash%20Parallel.md)
 
 ---
 
