@@ -21,17 +21,10 @@
 ---
 
 ### [🎮 EZ Flash IV Skin – EZDS](https://gbatemp.net/download/ez-flash-iv-skin-ezds.28738/)
-[![🧪 Untested](https://img.shields.io/badge/Omega-untested-lightgrey)]()  
+[![🧪 EZ-Flash IV Untested](https://img.shields.io/badge/EZ--Flash_IV-untested-lightgrey)]()  
 - 🛠 Author: **Kiaku**
 - 📝 Notes: A theme designed for EZ-Flash IV styled to look like the Nintendo DSi menu.
 
 ---
 
 💬 Want your theme listed? [Submit via GitHub Issues](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues)
-
----
-
-## 🏷️ Badge Legend
-- ![✅](https://img.shields.io/badge/Omega_DE-tested-brightgreen) = Confirmed working on Omega DE  
-- ![🧪](https://img.shields.io/badge/Omega-untested-lightgrey) = Found, not yet tested on this model  
-- ![⚠️](https://img.shields.io/badge/Model-Unknown-blueviolet) = Model not confirmed
