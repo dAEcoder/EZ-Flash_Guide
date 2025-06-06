@@ -7,10 +7,12 @@
 
 ---
 
-### ❌ Bad Example (Too Deep)
+### ❌ Bad Examples (Too Deep)
 
 ```
 Root > Roms > GBA > Pokemon > Completed > Game.gba
+Root > Roms > GBA > Pokemon > Game.gba
+Root > GBA > Pokemon > Game.gba
 ```
 
 - Looks organized, but will often **fail to load saves properly**.
@@ -18,15 +20,10 @@ Root > Roms > GBA > Pokemon > Completed > Game.gba
 
 ---
 
-### ✅ Good Example (Shallow & Reliable)
+### ✅ Good Examples (Shallow & Reliable)
 
 ```
 Root > Game.gba
-```
-
-or
-
-```
 Root > GBA > Game.gba
 ```
 
