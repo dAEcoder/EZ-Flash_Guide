@@ -104,4 +104,4 @@ THEMES
 ---
 SAVES
 ---
-So Saving is something that is required but, as I have found out... Omege DE Rev B. Does have some issues in this front 
+So Saving is something that is required but, as I have found out... Omega DE Rev B. Does have some issues in this front 
