@@ -21,7 +21,16 @@ Just putting what I have for now, Still actively updating.
 
 
 
+---
+Official Site
+---
+https://www.ezflashomega.com/
 
+---
+Extra Guides
+---
+- EZ-FLASH OMEGA Definitive Edition FAQ: https://www.ezflash.cn/omegade-en.pdf 
+- Cleaned-up version of the [EZ Flash Omega official setup guide](https://www.ezflashomega.com/pages/EZ-Flash-Omega-Setup.html) Right Here --> [Chimera EZ-Setup](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/README_SETUP.md).
 
 ---
 VERSIONS
@@ -64,6 +73,11 @@ The EZ Flash series encompasses a range of flash cartridges designed for various
 
 
 ---
+Default Guide - Always check this FIRST
+---
+https://www.ezflash.cn/omegade-en.pdf
+
+---
 CHEAT CODE CONVERSION
 ---
 Go to https://gamehacking.org/system/gba
@@ -72,7 +86,7 @@ Example Explanation = https://ibb.co/CqJZDkx
 
 If you see ROM Patch, It means exactly that, it needs converted to a ROM PATCH 
 - Example Image: https://ibb.co/CKRW83mB 
-Someone helped me with a ROM PATCH for Shiny Pokemon in Pokemon Unbound
+Someone helped me with a ROM PATCH for Shiny Pokemon in Pokemon Unbound (and explained how)
 - https://gbatemp.net/threads/ez-flash-omega-ded-i-need-help-with-custom-cheats.671909/#post-10667087
 
 Once you confirm that it is indeed RAM WRITE you can then convert it to EZ-Flash Format.
@@ -97,7 +111,8 @@ Once you confirm that it is indeed RAM WRITE you can then convert it to EZ-Flash
 ---
 THEMES
 ---
-
+    Omega & Omega DE
+        - Simple Theme: https://gbatemp.net/threads/new-theme-for-ez-flash-omega.520665/
 
 
 
