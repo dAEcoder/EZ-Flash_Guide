@@ -13,6 +13,8 @@ Just putting what I have for now, Still actively updating.
 
 
 
+
+
 ###################
 #    VERSIONS     #
 ###################
@@ -25,17 +27,17 @@ The EZ Flash series encompasses a range of flash cartridges designed for various
     EZ-Flash IV: Introduced microSD support, eliminating the need for built-in memory and reducing costs. 
 
 2. EZ-Flash Omega Series
-    > EZ-Flash Omega: A modern GBA flashcart supporting microSD cards up to 128GB. Features include real-time clock (RTC), cheat support, and save states.
-    > EZ-Flash Omega Definitive Edition: An enhanced version of the Omega, adding features like:
-        - Ferroelectric RAM (FRAM) for safer save storage
-        - Dual working mode for DS expansion functions
-        - Rumble support for GBA and NDS games
-        - Lower power consumption
-        - Replaceable button battery
-        - Support for 512Mb GBA movie ROMs
-        - RGB LED indicator
-        - Larger NOR flash area for up to 64MB ROM support 
-        https://ibb.co/YJknqv6 #EZ-Flash Omega DE has 2 different Version, RevA (original) & RevB (Chip Replacement - Talk about that Later)
+    EZ-Flash Omega: A modern GBA flashcart supporting microSD cards up to 128GB. Features include real-time clock (RTC), cheat support, and save states.
+    EZ-Flash Omega Definitive Edition: An enhanced version of the Omega, adding features like:
+     - Ferroelectric RAM (FRAM) for safer save storage
+     - Dual working mode for DS expansion functions
+     - Rumble support for GBA and NDS games
+     - Lower power consumption
+     - Replaceable button battery
+     - Support for 512Mb GBA movie ROMs
+     - RGB LED indicator
+     - Larger NOR flash area for up to 64MB ROM support 
+     https://ibb.co/YJknqv6 #EZ-Flash Omega DE has 2 different Version, RevA (original) & RevB (Chip Replacement - Talk about that Later)
 
 3. EZ-Flash Junior
     EZ-Flash Junior: Designed for GB and GBC systems, this flashcart supports microSD cards and features RTC, cheat support, and firmware/kernel upgrades. 
