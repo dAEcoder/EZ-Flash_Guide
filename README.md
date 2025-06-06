@@ -1,122 +1,80 @@
-Chimera EZ-Guide
+# 🎮 Chimera EZ-Guide (All EZ-Flash Models)
 
-![AI Generated Image](https://preview.redd.it/ez-flash-guide-wip-v0-ya233huuec5f1.png?width=640&crop=smart&auto=webp&s=8034efe09c23aedec139a7fa365e29e96434239e)  
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](../../issues)
+[![Build Status](https://img.shields.io/badge/status-WIP-yellow.svg)]()
+[![EZ-Flash Models](https://img.shields.io/badge/models-EZ--Flash--All-blueviolet)](README.md)
+[![Cheats Supported](https://img.shields.io/badge/Cheats-Supported-red)](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Cheats.md)
+[![Save Types](https://img.shields.io/badge/Save%20Types-SRAM%2C%20FRAM%2C%20Flash128k-orange)](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Save.md)
 
+![AI Generated Image](https://preview.redd.it/ez-flash-guide-wip-v0-ya233huuec5f1.png?width=640&crop=smart&auto=webp&s=8034efe09c23aedec139a7fa365e29e96434239e)
 
-    *AI Generated Image: Someone is more than welcome and encouraged to make a better image (credit will be given where credit is due).*
-
-
----
-OPEN SOURCE || FEEL FREE TO USE AND CHANGE THIS
----
-This is to help break down the terrible guide and enhance upon it. This includes Themes, Cheats, Saves, File Directories and More.
-
-Feel Free to leave comments in Issues if I'm missing or need to change anything and i'll update this as soon as possible Thanks!
-
-
-
-Just putting what I have for now, Still actively updating.
-
-
-
-
+*AI Generated Image: Someone is more than welcome and encouraged to make a better image (credit will be given where credit is due).*
 
 ---
-Official Site
----
-https://www.ezflashomega.com/
+
+## 🔓 Open Source & Community-Driven
+
+This guide is **open source** — feel free to use, modify, or share it however you'd like.
+
+> ⚠️ **Credit Disclaimer**:  
+> I take **zero credit** for creating or discovering any of this information.  
+> I'm simply consolidating and cleaning up what’s already out there — scattered across forums, Reddit, PDFs, and YouTube — into one clean, centralized place.
 
 ---
-Extra Guides
----
-- EZ-FLASH OMEGA Definitive Edition FAQ: https://www.ezflash.cn/omegade-en.pdf 
-- Cleaned-up version of the [EZ Flash Omega official setup guide](https://www.ezflashomega.com/pages/EZ-Flash-Omega-Setup.html) Right Here --> [Chimera EZ-Setup](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/README_SETUP.md).
+
+## 📘 Purpose
+
+This project is meant to **fix and enhance** the often lacking or outdated EZ-Flash documentation.  
+It includes everything from setup, themes, save handling, cheats, directory structure, and more — tailored for **every model**, from Advance to Omega DE.
+
+💬 If you find incorrect, outdated, or missing information, please open an issue — I’ll update the guide as soon as possible.
 
 ---
-VERSIONS
----
 
-The EZ Flash series encompasses a range of flash cartridges designed for various Nintendo handheld systems, including the Game Boy Advance (GBA), Game Boy Color (GBC), and Nintendo DS. Here's an overview of the main models available:
+## 🧱 Core Docs
 
-🕹️ EZ Flash Series Overview
-
-1. <span style="color:orange"> EZ-Flash Advance Series</span>  
-    EZ-Flash Advance: One of the earliest models, featuring built-in memory options ranging from 64Mbit to 512Mbit for GBA games.
-    EZ-Flash IV: Introduced microSD support, eliminating the need for built-in memory and reducing costs. 
-
-
-2. EZ-Flash Omega Series
-    EZ-Flash Omega: A modern GBA flashcart supporting microSD cards up to 128GB. Features include real-time clock (RTC), cheat support, and save states.
-    EZ-Flash Omega Definitive Edition: An enhanced version of the Omega, adding features like:
-     - Ferroelectric RAM (FRAM) for safer save storage
-     - Dual working mode for DS expansion functions
-     - Rumble support for GBA and NDS games
-     - Lower power consumption
-     - Replaceable button battery
-     - Support for 512Mb GBA movie ROMs
-     - RGB LED indicator
-     - Larger NOR flash area for up to 64MB ROM support
-       
-     https://ibb.co/YJknqv6 #EZ-Flash Omega DE has 2 different Version, RevA (original) & RevB (Chip Replacement - Talk about that Later)
-
-
-3. EZ-Flash Junior
-    EZ-Flash Junior: Designed for GB and GBC systems, this flashcart supports microSD cards and features RTC, cheat support, and firmware/kernel upgrades. 
-
-
-4. EZ-Flash 3in1
-    EZ-Flash 3in1: A Slot-2 expansion pack for the Nintendo DS Lite, providing GBA game support, rumble functionality, and RAM expansion for DS applications. 
-
-
-5. EZ-Flash Parallel
-    EZ-Flash Parallel: A newer model aimed at DS and 3DS systems, offering dual-screen support and compatibility with various DS applications.
-
+- 📁 [Directory Structure](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Directory%20Structure.md)
+- 💾 [Save Behavior Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Save.md)
+- 🧪 [Cheat Code Conversion](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Cheats.md)
+- ⚙️ [Setup Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Setup.md)
 
 ---
-Default Guide - Always check this FIRST
----
-https://www.ezflash.cn/omegade-en.pdf
+
+## 🌐 Official Links
+
+- 🏠 [EZ Flash Omega Official Website](https://www.ezflashomega.com/)
+- 📑 [EZ-Flash Omega DE FAQ PDF](https://www.ezflash.cn/omegade-en.pdf)
 
 ---
-CHEAT CODE CONVERSION
----
-Go to https://gamehacking.org/system/gba
 
-Example Explanation = https://ibb.co/CqJZDkx 
+## 🔍 EZ-Flash Versions
 
-If you see ROM Patch, It means exactly that, it needs converted to a ROM PATCH 
-- Example Image: https://ibb.co/CKRW83mB 
-Someone helped me with a ROM PATCH for Shiny Pokemon in Pokemon Unbound (and explained how)
-- https://gbatemp.net/threads/ez-flash-omega-ded-i-need-help-with-custom-cheats.671909/#post-10667087
+The EZ-Flash line includes various models for GBA, GB/GBC, and DS systems. Here's an overview:
 
-Once you confirm that it is indeed RAM WRITE you can then convert it to EZ-Flash Format.
-- You can convert it Here: https://ar2cht.netlify.app/ #
-- All my testing so far confirmed same results when it's a RAM Write = Works
+### 1. **EZ-Flash Advance Series**
+- **EZ-Flash Advance** – Legacy NOR-based GBA flashcart.
+- **EZ-Flash IV** – Introduced microSD support; requires soft reset to save properly.
 
+### 2. **EZ-Flash Omega Series**
+- **EZ-Flash Omega** – Supports microSD, save states, RTC, and cheats.
+- **EZ-Flash Omega Definitive Edition** – FRAM-based; has two versions:
+  - Rev A (original): Stable save support
+  - Rev B: Save issues in Pokémon, requires double-saving
 
-> Example Game.cht File
+> Image of RevA vs RevB board: https://ibb.co/YJknqv6
 
-    [Debug]
-    ON=B578,7D,03;B57C,F8,00,A8,00
-    
-    [Extra codes just put a space between the codes like this]
-    #Extra ON Code here and these 2 can be repeated hundreds of times in 1 file. (basically how ever many cheats you want)
-    
-    [GameInfo]
-    Name=2377 - Mother 3 (J)
-    System=GBA
-    Text=vicente
+### 3. **EZ-Flash Junior**
+- For Game Boy & Game Boy Color systems. Uses battery-backed SRAM and backs up saves to SD on reboot/menu return.
 
+### 4. **EZ-Flash 3-in-1**
+- Slot-2 GBA/DS Lite expansion. Requires manual save dumping via DS tools.
+
+### 5. **EZ-Flash Parallel**
+- Aimed at DS/3DS systems with dual-screen and DS ROM support.
 
 ---
-THEMES
----
-    Omega & Omega DE
-        - Simple Theme: https://gbatemp.net/threads/new-theme-for-ez-flash-omega.520665/
 
+## 💡 Must-Read: Save Behavior
 
-
----
-SAVES
----
-So Saving is something that is required but, as I have found out... Omega DE Rev B. Does have some issues in this front 
+Saving isn’t automatic on many models — check out the [Save Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Save.md) to avoid corruption and understand how FRAM, SRAM, and 128K Flash saves work.
