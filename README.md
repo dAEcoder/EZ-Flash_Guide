@@ -6,6 +6,8 @@
 [![EZ-Flash Models](https://img.shields.io/badge/models-EZ--Flash--All-blueviolet)](README.md)
 [![Cheats Supported](https://img.shields.io/badge/Cheats-Supported-red)](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Cheats.md)
 [![Save Types](https://img.shields.io/badge/Save%20Types-SRAM%2C%20FRAM%2C%20Flash128k-orange)](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Save.md)
+[![Themes Supported](https://img.shields.io/badge/Themes-Supported-blue)](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Theme%20Files.md)
+
 
 ![AI Generated Image](https://preview.redd.it/ez-flash-guide-wip-v0-ya233huuec5f1.png?width=640&crop=smart&auto=webp&s=8034efe09c23aedec139a7fa365e29e96434239e)
 
@@ -34,12 +36,15 @@ It includes everything from setup, themes, save handling, cheats, directory stru
 
 ## 🧱 Core Docs
 
-- 📁 [Directory Structure](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Directory%20Structure.md)
-- 💾 [Save Behavior Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Save.md)
-- 🧪 [Cheat Code Conversion](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Cheats.md)
-- ⚙️ [Setup Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Setup.md)
+- ⚙️ [Setup Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Setup.md)  
+- 📁 [Directory Structure](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Directory%20Structure.md)  
+- 💾 [Save Behavior Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Save.md)  
+- 🧪 [Cheat Code Conversion](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Cheats.md) 
+- 🎨 [Theme Files](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Theme%20Files.md)  
+- 🛠️ [Troubleshooting](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Troubleshooting.md)  
 
 ---
+
 
 ## 🌐 Official Links
 
