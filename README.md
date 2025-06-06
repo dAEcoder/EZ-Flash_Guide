@@ -24,7 +24,7 @@ The EZ Flash series encompasses a range of flash cartridges designed for various
 
 🕹️ EZ Flash Series Overview
 
-1. EZ-Flash Advance Series
+1. <span style="color:orange"> EZ-Flash Advance Series</span>  
     EZ-Flash Advance: One of the earliest models, featuring built-in memory options ranging from 64Mbit to 512Mbit for GBA games.
     EZ-Flash IV: Introduced microSD support, eliminating the need for built-in memory and reducing costs. 
 
