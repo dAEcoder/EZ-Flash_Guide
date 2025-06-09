@@ -12,7 +12,7 @@
 ```
 Root > Roms > GBA > Pokemon > Completed > Game.gba  
 Root > Roms > GBA > Pokemon > Game.gba  
-Root > GBA > Pokemon > Game.gba  
+Root > GBA > Pokemon > Game.gba  # Can Cause Issue, Avoid if needed
 ```
 
 - Looks organized, but will often **fail to load saves properly**.  
