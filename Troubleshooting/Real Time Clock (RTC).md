@@ -1,5 +1,4 @@
-## 🕒 RTC Retention Issues (EZ Flash Omega DE)
-
+## 🕒 RTC Retention Issues
 ### 🧩 Problem Overview
 
 Some users experience **RTC (Real-Time Clock)** issues when transferring `.sav` files between authentic Pokémon cartridges, the EZ Flash Omega DE (EZFODE), R4 cards, and emulators like mGBA. Common symptoms include:
