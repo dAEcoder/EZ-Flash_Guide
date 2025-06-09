@@ -10,12 +10,12 @@
 ### ❌ Bad Examples (Too Deep)
 
 ```
-Root > Roms > GBA > Pokemon > Completed > Game.gba
-Root > Roms > GBA > Pokemon > Game.gba
-Root > GBA > Pokemon > Game.gba
+Root > Roms > GBA > Pokemon > Completed > Game.gba  
+Root > Roms > GBA > Pokemon > Game.gba  
+Root > GBA > Pokemon > Game.gba  
 ```
 
-- Looks organized, but will often **fail to load saves properly**.
+- Looks organized, but will often **fail to load saves properly**.  
 - The EZ Flash Omega sometimes can’t handle deep paths or special characters in folder names.
 
 ---
@@ -23,15 +23,29 @@ Root > GBA > Pokemon > Game.gba
 ### ✅ Good Examples (Shallow & Reliable)
 
 ```
-Root > Game.gba
-Root > GBA > Game.gba
+Root > Game.gba  
+Root > GBA > Game.gba  
 ```
 
-- Clean and simple.
-- Keeps save files working reliably.
+- Clean and simple.  
+- Keeps save files working reliably.  
 - Works with all themes and firmware versions.
-  
+
 🧠 Keep it tidy, and your Omega will thank you!
+
+---
+
+### 📁 File Limit Per Folder
+
+EZ-Flash Omega has a hard limit of **512-513 file entries per folder**.  
+This includes `.gba` files, subfolders, save files, and system files.
+
+#### 🔧 To avoid problems:
+- Keep each folder under **500 total items**  
+- Organize large ROM sets into subfolders (e.g., `/GBA/A/`, `/GBA/B/`, etc.)  
+- Avoid special characters in folder and file names  
+
+> 💡 If a game doesn't appear on your device, it may be because the folder it's in exceeds this limit.
 
 ---
 
@@ -47,8 +61,8 @@ Folders appear in **alphabetical order** regardless of how you create them.
 ├── CHEAT/                # Optional: Used for Cheat Database
 │   ├── Chn/              # Chinese (Can be Removed)
 │   ├── Eng/              # English (Most of us will be using this)
-│   ├── GameID2Cht.bin    # This is what reads the Chn & Eng Folders, You can open this VSCode to match Software Title to Game 
-│   └── Game.cht          # Custom Cheat Must Match Game Name Exactly and be placed in Cheat Root Folder not Sub Folders.
+│   ├── GameID2Cht.bin    # Reads the Chn & Eng Folders
+│   └── Game.cht          # Custom Cheat (must match game name exactly)
 ├── GBA/
 │   ├── Game1.gba
 │   └── Game2.gba
@@ -60,7 +74,6 @@ Folders appear in **alphabetical order** regardless of how you create them.
 ├── NES/
 │   └── Game.nes
 └── SAVER/        # Auto-created after first game save
-
 ```
 
 ---
@@ -85,8 +98,8 @@ This structure is used when themes are built to rely on `SYSTEM` and `PLUG` fold
 ```
 
 📝 **Notes:**
-- `SYSTEM/` is common with Simple/Advanced themes, but not all kernels support it.
-- Some themes may require you to move IMGS or PLUG folders into `SYSTEM/`.
+- `SYSTEM/` is common with Simple/Advanced themes, but not all kernels support it.  
+- Some themes may require you to move IMGS or PLUG folders into `SYSTEM/`.  
 - Always follow the README or post instructions from the theme author.
 
 ---
