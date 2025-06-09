@@ -7,6 +7,7 @@
 [![Cheats Supported](https://img.shields.io/badge/Cheats-Supported-red)](./Cheats.md)
 [![Save Types](https://img.shields.io/badge/Save%20Types-SRAM%2C%20FRAM%2C%20Flash128k-orange)](./Save.md)
 [![Themes Supported](https://img.shields.io/badge/Themes-Supported-blue)](./Theme%20Files.md)
+[![Homebrew Supported](https://img.shields.io/badge/Homebrew-Supported-blue)](./Homebrew.md)
 
 ![AI Generated Image](https://preview.redd.it/ez-flash-guide-wip-v0-ya233huuec5f1.png?width=640&crop=smart&auto=webp&s=8034efe09c23aedec139a7fa365e29e96434239e)
 
