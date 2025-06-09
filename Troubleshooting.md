@@ -60,6 +60,28 @@ This section covers common problems with EZ-Flash devices and how to avoid or re
 
 ---
 
+## ⚪ Game Loads to White Screen
+
+**Causes:**
+- Corrupted or wrong ROM version (e.g., FireRed v1.1 instead of v1.0)
+- Damaged or mismatched `.sav` file
+- SD card formatted incorrectly or too slow
+- Cheats are crashing the game
+- Outdated kernel or buggy theme
+- Broken patch for ROM hacks
+
+**Fix:**
+- ✅ Re-download or repatch from a verified clean ROM (use FireRed v1.0 for most hacks)  
+- ✅ Delete `.sav` and `.cht` files, let EZ-Flash regenerate them  
+- ✅ Format SD card to **FAT32 with 64K allocation unit size** [Save Behavior Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Save.md) 
+- ✅ Turn off all cheats before loading the game  
+- ✅ Update to the latest kernel from [ezflash.cn](https://www.ezflash.cn/download)  
+- ✅ If using a ROM hack, patch using tools like [NUPS](https://www.romhacking.net/utilities/606/) with a clean base ROM only  
+
+> 💡 Tip: Always save twice and return to the kernel menu before powering off to avoid save corruption, especially in Pokémon games.
+
+---
+
 ## 🧱 Omega Freezes on Boot / Game Won’t Start
 
 **Causes:**
