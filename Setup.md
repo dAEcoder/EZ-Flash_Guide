@@ -34,14 +34,15 @@ Each EZ Flash Omega comes with:
 
 ## 💽 Setting Up the microSD Card
 
-### 📏 Format Guidelines
-| Card Size | Filesystem | Cluster Size |
-|-----------|------------|--------------|
-| ≤ 2GB     | FAT/FAT16  | 32KB         |
-| ≤ 32GB    | FAT32      | 32KB         |
-| ≤ 128GB   | exFAT      | 32KB or larger |
+| Format Type | SD Card Size        | Notes                                                                 |
+|-------------|---------------------|-----------------------------------------------------------------------|
+| FAT32       | ✅ Up to 32GB        | Native support in Windows. Most stable format for EZ-Flash carts.     |
+| FAT32       | ✅ 64GB – 256GB+     | Requires tools like GUIFormat. Use 64K allocation size for best results. |
+| exFAT       | ⚠️ 64GB – 1TB        | May boot but prone to save/load errors. Not officially supported.     |
+| NTFS        | ❌ Any size          | Not recognized by EZ-Flash firmware. Do **not** use.                  |
+| FAT16       | ⚠️ 2GB or less       | Very old format. Can be used, but not recommended. Limited capacity.  |
 
-> 💡 Use your OS’s formatting tool or [SD Card Formatter](https://www.sdcard.org/downloads/formatter/).
+🔧 Use your OS’s formatting tool or [SD Card Formatter](https://www.sdcard.org/downloads/formatter/).
 
 ---
 
