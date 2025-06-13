@@ -9,9 +9,6 @@
 [![Themes Supported](https://img.shields.io/badge/Themes-Supported-blue)](./Theme%20Files.md)
 [![Homebrew Supported](https://img.shields.io/badge/Homebrew-Supported-blue)](./Homebrew.md)
 
-![AI Generated Image](https://preview.redd.it/ez-flash-guide-wip-v0-ya233huuec5f1.png?width=640&crop=smart&auto=webp&s=8034efe09c23aedec139a7fa365e29e96434239e)
-
-*AI Generated Image: Someone is more than welcome and encouraged to make a better image (credit will be given where credit is due).*
 
 ---
 
