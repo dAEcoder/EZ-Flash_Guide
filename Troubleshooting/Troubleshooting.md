@@ -1,180 +1,175 @@
 # 🛠️ Troubleshooting Guide
 
-This section covers common problems with EZ-Flash devices and how to avoid or resolve them. Whether you're having save issues, broken ROMs, cheat bugs, or boot problems — this guide helps you get back on track.
+This section covers common problems with EZ-Flash Omega Definitive Edition and how to fix or avoid them. Whether you're dealing with missing ROMs, save corruption, boot errors, or cheat issues — this guide has you covered.
 
 ---
 
-## ❓ ROM Doesn't Show Up
+## ❓ ROM Doesn’t Show Up
 
-**Causes:**
-- Unsupported extension (`.gba`, `.gb`, `.gbc`, `.nes` supported)
-- ROM is too deeply nested
-- Corrupted or misnamed ROM file
+**Possible Causes:**
+- Wrong file extension (`.gba`, `.gb`, `.gbc`, `.nes` supported)
+- ROM placed too deep in folders
+- Special characters in filename
+- Corrupted or incompatible ROM file
 
-**Fix:**
-- Place ROMs directly in `/GBA/`, `/GB/`, etc.
-- Keep folder paths short
-- Remove special characters in filenames
-- Ensure your ROM is clean — see [ROM Patching Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Troubleshooting.md#-rom-dumping--patching-best-practices)
+**Fixes:**
+- Place ROMs in `/GBA/`, `/GB/`, etc.
+- Use short folder names and paths
+- Remove symbols or odd characters in filenames
+- Use a verified clean ROM — see [ROM Dumping & Patching](#-rom-dumping--patching-best-practices)
 
 ---
 
 ## 💾 Save File Not Working or Keeps Resetting
 
 **Causes:**
-- Save wasn't committed (non-FRAM models)
+- Didn’t return to menu before powering off
 - Save type mismatch
-- Rev B board issues with dual-bank saves (e.g., Pokémon)
+- Dual-save games like Pokémon not handled properly
 
-**Fix:**
-- Save **twice** before exiting (especially Pokémon)
-- Always return to the kernel menu before powering off
-- Check `/SAVER/` for `.sav` file
-- Learn more in the [Save Behavior Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Save.md)
+**Fixes:**
+- Save twice in-game before exiting
+- Always return to the EZ-Flash menu before turning off
+- Check for a `.sav` file in `/SAVER/`
+- More help: [Save Behavior Guide](../Docs/Save.md)
 
 ---
 
 ## ⚠️ Pokémon: “Save is Corrupted” Message
 
-**Why this happens:**
-- Pokémon uses 128KB Flash with dual save slots. If one is skipped, it flags corruption.
+**Why it happens:**  
+Pokémon games use 128KB Flash with dual-slot redundancy. If one slot isn’t updated, it flags as “corrupt.”
 
 **Fix:**
-- Save **twice**
-- Return to the menu after saving
-- Delete or restore `.sav` if fully corrupted
+- Save **twice** before quitting
+- Exit to the kernel menu
+- If it persists, delete and re-create the `.sav` file
 
 ---
 
 ## 🔁 Game Boots Then Instantly Reboots
 
 **Causes:**
-- Invalid patch or ROM mismatch
-- Incompatible file format
-- Header/save issues
+- Bad patch or ROM mismatch
+- Incorrect file format
+- Save type issues
 
-**Fix:**
+**Fixes:**
 - Use [GBATA](https://www.romhacking.net/utilities/601/) to clean headers
-- Verify CRC32 before patching
-- Repatch from a clean dump
+- Verify ROM hashes before patching
+- Repatch using a known clean ROM
 
 ---
 
 ## ⚪ Game Loads to White Screen
 
 **Causes:**
-- Corrupted or wrong ROM version (e.g., FireRed v1.1 instead of v1.0)
-- Damaged or mismatched `.sav` file
-- SD card formatted incorrectly or too slow
-- Cheats are crashing the game
-- Outdated kernel or buggy theme
-- Broken patch for ROM hacks
+- FireRed v1.1 used instead of v1.0 (common with ROM hacks)
+- Corrupt or mismatched `.sav` or `.cht` files
+- SD card improperly formatted
+- Cheats causing crashes
+- Outdated kernel or broken theme
 
-**Fix:**
-- ✅ Re-download or repatch from a verified clean ROM (use FireRed v1.0 for most hacks)  
-- ✅ Delete `.sav` and `.cht` files, let EZ-Flash regenerate them  
-- ✅ Format SD card to **FAT32 with 64K allocation unit size** [Save Behavior Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Save.md) 
-- ✅ Turn off all cheats before loading the game  
-- ✅ Update to the latest kernel from [ezflash.cn](https://www.ezflash.cn/download)  
-- ✅ If using a ROM hack, patch using tools like [NUPS](https://www.romhacking.net/utilities/606/) with a clean base ROM only  
+**Fixes:**
+- Use **FireRed v1.0** for ROM hacks
+- Delete `.sav` and `.cht` — let the cart regenerate them
+- Format SD as **FAT32, 64KB allocation**
+- Disable cheats before loading
+- Update to latest kernel: [ezflash.cn](https://www.ezflash.cn/download)
+- Patch hacks using [NUPS](https://www.romhacking.net/utilities/606/)
 
-> 💡 Tip: Always save twice and return to the kernel menu before powering off to avoid save corruption, especially in Pokémon games.
-
----
-
-## 🧱 Omega Freezes on Boot / Game Won’t Start
-
-**Causes:**
-- Bad kernel or microSD format
-- Corrupted theme files
-
-**Fix:**
-- Reformat SD (FAT32 or exFAT, 32KB clusters)
-- Reinstall kernel from [ezflash.cn](https://www.ezflash.cn/download)
-- Revert to default theme if using a custom one
+> 💡 Always save twice and return to the menu before powering off — especially in Pokémon games.
 
 ---
 
-## 🎮 Controls Lag / Menu Is Glitchy
+## 🧱 Cart Freezes on Boot / Game Won’t Start
 
 **Causes:**
-- Theme bug
-- Region-locked ROM or unsupported feature
+- Corrupted theme
+- Broken SD format or kernel
 
-**Fix:**
-- Use default theme
-- Try a clean US ROM
-- Update your kernel version
+**Fixes:**
+- Format SD card (FAT32, 32K/64K cluster)
+- Reinstall the kernel from [ezflash.cn](https://www.ezflash.cn/download)
+- Use the default `.skn` theme
+
+---
+
+## 🎮 Controls Lag / Menu Glitches
+
+**Causes:**
+- Corrupt or buggy custom theme
+- Region-incompatible ROMs
+
+**Fixes:**
+- Switch back to the default theme
+- Try a verified US-region ROM
+- Update to the latest kernel
 
 ---
 
 ## 🧩 Cheat Menu Doesn’t Show Up
 
 **Causes:**
-- Cheat support is **disabled by default**
-- Missing or mismatched `CHEAT.DB`
-- Incorrect ROM title in cheat database
+- Cheats disabled in settings
+- `CHEAT.DB` missing or doesn’t match ROM
 
-**Fix:**
-- Enable cheats in the cart menu:  
-  → `Start` ➝ `Options` ➝ **Cheat Support = On**
+**Fixes:**
+- Enable cheats:  
+  → Press `Start` ➝ `Options` ➝ Toggle **Cheat Support = On**
 - Place `CHEAT.DB` in `/CHEAT/`
-- Rename ROM to match the name in the DB
-- Convert custom codes using the [Cheat Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Cheats.md)
+- Rename ROM to match DB entry
+- See: [Cheat Guide](../Tutorials/Cheats.md)
 
 ---
 
-## ❄️ Game Freezes or Glitches After Starting With Cheats
+## ❄️ Game Freezes or Crashes When Cheats Are On
 
-**Cause:**
-- Incorrect, malformed, or incompatible cheat codes
+**Cause:**  
+Malformed or incompatible cheat codes — especially AR/GameShark codes not converted correctly.
 
 **Fix:**
-- Only use **RAM write** codes
-- Never use raw GameShark/Codebreaker codes without converting
-- See how to convert properly:  
-  [Cheat Code Conversion Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Cheats.md)
+- Only use properly converted RAM-based codes
+- Avoid unconverted Codebreaker/GS codes
+- Guide: [Cheat Code Conversion](../Tutorials/Cheats.md)
 
 ---
 
 ## 📦 ROM Dumping & Patching Best Practices
 
-Bad ROMs and pre-patched files are the #1 cause of game issues.
+Bad ROMs are the #1 cause of weird errors, glitches, and white screens.
 
-### ✅ Tips:
+### ✅ Checklist Before You Play
 
-- Always patch your **own** clean ROMs
-- Verify ROMs with [No-Intro](https://datomatic.no-intro.org/) sets or CRC32
-- Never trust random “pre-patched” files
+- File ends in `.gba`
+- ROM size makes sense (e.g., ~16MB for FireRed)
+- Boots to title screen
+- Creates a `.sav` in `/SAVER/`
 
-### 🧰 Tools:
+### 🧰 Recommended Tools
 
-| Patch Type | Tool |
-|------------|------|
-| IPS | [Lunar IPS](https://www.romhacking.net/utilities/240/) |
-| UPS | [NUPS](https://www.romhacking.net/utilities/606/), [Tsukuyomi](https://www.romhacking.net/utilities/519/) |
-| Online | [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) |
-| Utilities | [GBATA](https://www.romhacking.net/utilities/601/), [Hashtab](https://implbits.com/products/hashtab/) |
-
-### ✔ Check Before You Play:
-
-- ✅ File ends in `.gba`
-- ✅ ROM size looks normal (e.g. ~16MB for FireRed)
-- ✅ Boot to title screen works
-- ✅ Save file appears in `/SAVER/`
+| Task        | Tool |
+|-------------|------|
+| IPS Patch   | [Lunar IPS](https://www.romhacking.net/utilities/240/) |
+| UPS Patch   | [NUPS](https://www.romhacking.net/utilities/606/), [Tsukuyomi](https://www.romhacking.net/utilities/519/) |
+| Online Patch| [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) |
+| Header Fix  | [GBATA](https://www.romhacking.net/utilities/601/) |
+| Hash Check  | [Hashtab](https://implbits.com/products/hashtab/) |
 
 ---
 
 ## 📤 Still Need Help?
 
-Open an [Issue on GitHub](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues/new) and include:
+Open an issue on GitHub:  
+https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues/new
 
-- Your cart model and revision (e.g., Omega DE Rev B)
-- Game name and region
+Include:
+- Cart model and revision (e.g., Omega DE Rev B)
+- Game name + region
 - Kernel version
-- Steps you’ve tried
-- Any `.sav` or `.cht` issues you can replicate
+- What you've tried already
+- `.sav` or `.cht` issues (if relevant)
 
 ---
 
-🧠 Following these best practices will prevent 90% of common issues with EZ-Flash devices.
+🧠 Following these tips prevents **90% of issues** with EZ-Flash carts. Always start with clean ROMs, proper formatting, and verified patches.
