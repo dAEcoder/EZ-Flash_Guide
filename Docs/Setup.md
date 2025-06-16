@@ -1,82 +1,112 @@
-# 🛠️ EZ Flash Omega Setup Guide
+# 🛠️ EZ-Flash Omega (and DE) Setup Guide
 
-The **EZ Flash Omega** is the latest update in the EZ-Flash line of Game Boy Advance flashcarts, capable of playing **GBA**, **GB**, **GBC**, and **NES ROMs**. It replaces the now-discontinued **EZ-Flash IV** and **EZ-Flash Reform** models.
+The **EZ-Flash Omega** and **Omega Definitive Edition (DE)** are powerful GBA flashcarts capable of running **GBA**, **GB**, **GBC**, and **NES** ROMs. They replace older models like the **EZ-Flash IV** and **Reform** with faster load times, more stable saves, and extra features like themes, cheats, and real-time clock (RTC).
 
-This guide walks you through **setup**, **installation**, and **use** of the flashcart, as well as **optional features** like cheats and thumbnails.
+This guide walks you through setup, installation, and optional features like theming and save editing.
 
 ---
 
 ## 📦 What You'll Need
 
-- ✅ **EZ-Flash Omega** — [Buy from ezflashomega.com](https://www.ezflashomega.com)
-- 💾 **microSD card** (up to 128GB supported)
-- 🔌 **microSD card reader/writer** (included with official Omega kits)
-- 🧠 **Firmware kernel files** (download from [EZ Flash site](https://www.ezflash.cn))
-- 🎮 (Optional) Cheats Library
-- 🖼️ (Optional) Thumbnails Pack
+- ✅ **EZ-Flash Omega** or **Omega DE**  
+- 💾 **microSD card** (4–128 GB recommended)  
+- 🔌 **microSD card reader** (included with most official kits)  
+- 🧠 Latest kernel firmware from [ezflash.cn](https://www.ezflash.cn)  
+- 🎨 (Optional) Themes in `.skn` format  
+- 🧬 (Optional) `CHEAT.DB` for cheats  
+- 🖼️ (Optional) `/IMGS/` thumbnails pack
 
 ---
 
-## 🧩 Choosing Your Cartridge Case (Optional)
+## 🧩 Optional: Swapping the Shell
 
-Each EZ Flash Omega comes with:
-- A **full-size shell** for GBA/GBA SP
-- A **slim shell** for DS Lite (fits flush in Slot-2)
+Omega carts come with:
+- A **standard shell** for GBA/GBA SP  
+- A **low-profile shell** for DS Lite (flush-fit for Slot-2)
 
-### 🔄 How to Swap the Shell
-1. Place the Omega cartridge **face down** on a hard surface.
-2. Remove the **single screw** from the back with a small Phillips screwdriver.
-3. Take off the shell and move the circuit board into the alternate shell.
-4. Align the new shell properly (watch the microSD slot alignment).
-5. Reinstall the screw to secure the new case.
+### 🔄 Swap Instructions:
+1. Lay the cart face-down.
+2. Remove the single screw with a small Phillips driver.
+3. Carefully swap the board into the alternate shell.
+4. Align the screw post and microSD slot.
+5. Reinsert the screw to secure the new case.
 
 ---
 
-## 💽 Setting Up the microSD Card
+## 💽 Format the microSD Card
 
-| Format Type | SD Card Size        | Notes                                                                 |
-|-------------|---------------------|-----------------------------------------------------------------------|
-| FAT32       | ✅ Up to 32GB        | Native support in Windows. Most stable format for EZ-Flash carts.     |
-| FAT32       | ✅ 64GB – 256GB+     | Requires tools like GUIFormat. Use 64K allocation size for best results. |
-| exFAT       | ⚠️ 64GB – 1TB        | May boot but prone to save/load errors. Not officially supported.     |
-| NTFS        | ❌ Any size          | Not recognized by EZ-Flash firmware. Do **not** use.                  |
-| FAT16       | ⚠️ 2GB or less       | Very old format. Can be used, but not recommended. Limited capacity.  |
+| Format | Card Size         | Recommended? | Notes |
+|--------|-------------------|--------------|-------|
+| FAT32  | 4–32 GB            | ✅ Yes        | Native support; stable |
+| FAT32  | 64–128 GB          | ✅ Yes        | Use [GUIFormat](https://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format |
+| exFAT  | 64–256 GB+         | ⚠️ Risky      | May cause save errors; not officially supported |
+| NTFS   | Any                | ❌ No         | Not recognized by EZ-Flash |
+| FAT16  | 2 GB or less       | ⚠️ Limited    | Works, but not recommended |
 
-🔧 Use your OS’s formatting tool or [SD Card Formatter](https://www.sdcard.org/downloads/formatter/).
+🔧 Prefer **FAT32** with **64K allocation unit size** for best performance.
 
 ---
 
 ## 🚀 Installing Firmware & Game Files
 
-1. **Download** the latest kernel from the [EZ Flash Omega downloads page](https://www.ezflash.cn/download).
-2. **Extract** the contents using [7-Zip](https://www.7-zip.org) or WinRAR.
-3. **Copy** the firmware kernel files directly to the root of the microSD card.
-4. (Optional) Add:
-   - `CHEAT.DB` for cheats
-   - `IMGS` folder for thumbnails
-5. Organize your ROMs into folders (e.g. `GBA/`, `GB/`, `NES/`) for easier navigation.
-
----
-
-## 🕹️ Loading the Flashcart
-
-1. Insert the prepared **microSD card** into the EZ Flash Omega.
-2. Insert the Omega into your **GBA**, **DS**, or **DS Lite**.
-3. Power on the device.
+1. Download the latest kernel from [ezflash.cn](https://www.ezflash.cn/download).
+2. Extract the `.zip` using [7-Zip](https://www.7-zip.org) or WinRAR.
+3. Copy these to the **root** of the microSD card:
+   - `ezkernelnew.bin` (Omega DE) or `ezkernel.bin` (Classic Omega)
+   - `/CHEAT/` folder (optional)
+   - `/IMGS/` thumbnails (optional)
+4. Add your ROMs to folders like:
+   - `/GBA/` – for GBA ROMs
+   - `/GB/` and `/GBC/` – for GB/GBC games
+   - `/NES/` – for NES ROMs
 
 ---
 
 ## 🔄 Updating Firmware
 
-1. Insert the microSD card into the EZ Flash Omega.
-2. Insert the Omega into your console.
-3. **Hold the RIGHT shoulder button** while powering on the system.
-4. (Optional) Plug into a power source to prevent interruption.
+1. Insert the microSD card into your EZ-Flash cart.
+2. Insert the cart into your handheld.
+3. **Hold the RIGHT shoulder button (R)** while powering on.
+4. The update runs automatically if needed.
 
-> The update will begin automatically if a newer kernel is detected.
+> ⚠️ Don’t power off during kernel updates. Plug into a charger for safety.
 
 ---
 
-✅ You're now ready to enjoy games, cheats, and custom features with your EZ Flash Omega!
+## 🎨 (Optional) Install a Theme
 
-Need help? Open an issue on [GitHub Issues](../../issues), and if we solve it, it'll be added to this guide!
+1. Create `/THEMES/` on the microSD card.
+2. Drop in any `.skn` file or a theme folder.
+3. On boot, **hold SELECT** → go to `Theme` → choose your theme.
+
+🪄 You can also rename a `.skn` to `default.skn` to auto-load it.
+
+For custom theme creation, check:  
+📘 [Creating Themes.md](../Tutorials/Creating%20Themes.md)
+
+---
+
+## 💾 Saving Correctly
+
+- Save **twice** in-game, waiting 3–5 seconds each time
+- Press **L+R+A+Select** or return to the kernel menu
+- Wait for **“Saving... Do not power off”**
+- After that, you can safely turn off the console
+- Then remove the SD card and manage `.sav` files on PC
+
+For advanced edits:  
+🧬 [Editing Save Files.md](../Tutorials/Editing%20Save%20Files.md)
+
+---
+
+## 🧪 Want More Features?
+
+- Cheats: [Cheats.md](../Tutorials/Cheats.md)
+- Themes: [Theme Files.md](../Docs/Theme%20Files.md)
+- Troubleshooting: [Troubleshooting.md](../Troubleshooting/Troubleshooting.md)
+
+---
+
+✅ That’s it! You’re ready to start playing, customizing, and exploring what the Omega can do.
+
+Need help? Open a [GitHub Issue](../../issues) and we’ll try to get it resolved.
