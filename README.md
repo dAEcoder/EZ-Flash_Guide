@@ -6,9 +6,10 @@
 [![EZ-Flash Models](https://img.shields.io/badge/models-EZ--Flash--All-blueviolet)](./Models)
 [![Cheats Supported](https://img.shields.io/badge/Cheats-Supported-red)](./Cheats.md)
 [![Save Types](https://img.shields.io/badge/Save%20Types-SRAM%2C%20FRAM%2C%20Flash128k-orange)](./Save.md)
-[![Themes Supported](https://img.shields.io/badge/Themes-Supported-blue)](./Theme%20Files.md)
+[![Themes Supported](https://img.shields.io/badge/Themes-Supported-blue)](./Docs/Theme%20Files.md)
 [![Homebrew Supported](https://img.shields.io/badge/Homebrew-Supported-blue)](./Homebrew.md)
-
+[![🧠 FAQ](https://img.shields.io/badge/%F0%9F%A7%A0-FAQ-lightgrey)](./FAQ.md)
+[![🛠 Recommended Tools](https://img.shields.io/badge/Tools-Recommended-brightgreen)](./Docs/Recommended%20Tools.md)
 
 ---
 
@@ -33,12 +34,16 @@ It includes everything from setup, themes, save handling, cheats, directory stru
 
 ## 🧱 Core Docs
 
-- ⚙️ [Setup Guide](./Setup.md)  
-- 📁 [Directory Structure](./Directory%20Structure.md)  
-- 💾 [Save Behavior Guide](./Save.md)  
+- ⚙️ [Setup Guide](./Docs/Setup.md)  
+- 📁 [Directory Structure](./Docs/Directory%20Structure.md)  
+- 💾 [Save Behavior Guide](./Docs/Save.md)  
 - 🧪 [Cheat Code Conversion](./Cheats.md)  
-- 🎨 [Theme Files](./Theme%20Files.md)  
-- 🛠️ [Troubleshooting](./Troubleshooting.md)
+- 🎨 [Theme Files](./Docs/Theme%20Files.md)  
+- 🛠️ [Troubleshooting](./Troubleshooting/Troubleshooting.md)  
+- 📘 [FAQ](./FAQ.md)  
+- 🖼️ [Creating Thumbnails](./Tutorials/Creating%20Thumbnails.md)  
+- 🎨 [Creating Themes](./Tutorials/Creating%20Themes.md)  
+- 🔧 [Recommended Tools](./Docs/Recommended%20Tools.md)
 
 ---
 
@@ -57,7 +62,7 @@ Each flashcart model now has its own dedicated page for specs, features, and cav
 - [2018 – EZ-Flash Omega](./Models/%5B2018%5D%20EZ-Flash%20Omega.md)
 - [2019 – EZ-Flash Junior](./Models/%5B2019%5D%20EZ-Flash%20Junior.md)
 - [2021 – EZ-Flash Omega Definitive Edition](./Models/%5B2021%5D%20EZ-Flash%20Omega%20Definitive%20Edition.md)
-- [2023 – EZ-Flash Parallel](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Models/%5B2023%5D%20EZ-Flash%20Parallel.md)
+- [2023 – EZ-Flash Parallel](./Models/%5B2023%5D%20EZ-Flash%20Parallel.md)
 
 ---
 
@@ -71,6 +76,4 @@ Each flashcart model now has its own dedicated page for specs, features, and cav
 
 ## 💡 Must-Read: Save Behavior
 
-Saving isn’t automatic on many models — check out the [Save Guide](./Save.md) to avoid corruption and understand how FRAM, SRAM, and 128K Flash saves work.
-
----
+Saving isn’t automatic on many models — check out the [Save Guide](./Docs/Save.md) to avoid corruption and understand how FRAM, SRAM, and 128K Flash saves work.
