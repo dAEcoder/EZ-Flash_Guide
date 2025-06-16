@@ -62,6 +62,38 @@ After patching, you can:
 
 ---
 
+---
+
+## 🗃️ Dumping Your Own ROMs (Optional but Recommended)
+
+Want guaranteed clean ROMs for patching or preservation? Dump them yourself using trusted hardware.
+
+### 🔧 Tools for Dumping GBA/GB/GBC ROMs
+
+| Method | Tool | Notes |
+|--------|------|-------|
+| 🧲 Flash Boy Cyclone | Hardware USB dumper | Works for GBA and older GB carts |
+| 🧲 GBxCart RW | Multi-system cart reader | Reliable and open-source |
+| 🧲 Epilogue GB Operator | USB-based GBA reader with native UI | Great for backups, works on Windows/Mac/Linux |
+| 🧲 Retrode 2 | Cartridge reader with plugins | Works for GBA, SNES, and more |
+
+> ⚠️ These tools dump **unencrypted ROMs** — good for patching. Commercial DS/3DS games are encrypted and require different tools (not supported here).
+
+---
+
+### 🧼 Best Practices When Dumping
+
+- Use the tool’s **raw backup mode** (not .sav-only)
+- Dump multiple times and compare file hashes
+- Use [Hashtab](https://implbits.com/products/hashtab/) to verify consistent CRC32 between dumps
+- Rename the file for clarity (e.g. `FireRed_v1.0_clean.gba`)
+- Store original dumps separately from patched or modified files
+
+> 💡 Bonus: These tools can also extract `.sav` files to be edited or backed up.
+
+
+---
+
 ## ❌ Avoid These Mistakes
 - 🚫 Using v1.1 FireRed for v1.0 hacks
 - 🚫 Applying patches to already-patched ROMs
