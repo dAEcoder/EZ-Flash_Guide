@@ -1,5 +1,7 @@
 # EZ-Flash Junior (2019)
 
+[Alternate Repo with some more details](https://github.com/daid/ezflashjr)
+
 The EZ-Flash Junior is a flash cartridge designed for Game Boy and Game Boy Color systems. It delivers modern storage features while retaining compatibility with the original hardware.
 
 ---
