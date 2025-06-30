@@ -1,69 +1,98 @@
-# 🎨 EZ-Flash Theme Archive
+# ❓ Frequently Asked Questions (FAQ)
 
-A collection of community-discovered themes for the **EZ-Flash Omega**, **Omega Definitive Edition**, and other models.  
-Submit new themes or compatibility confirmations via [GitHub Issues](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues).
-
----
-
-## 🛠 Want to Make Your Own Theme?
-
-Check out the full walkthrough:  
-📘 **[Creating Themes.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Creating_Themes.md)** – Tools, templates, file structure, color palettes, and tips for building `.skn` themes from scratch.  
-Covers *SkinSimple* compatibility, Omega DE kernel behavior, and graphic limitations.
+This FAQ addresses common questions and concerns about the EZ-Flash Omega Definitive Edition and related tools.
 
 ---
 
-## ✅ Verified Themes (Omega DE & Omega)
+### 🔧 General Usage
 
-### [🖤 Simple Theme (All Variants)](https://gbatemp.net/threads/new-theme-for-ez-flash-omega.520665/)
-[![✅ Omega DE Tested](https://img.shields.io/badge/Omega_DE-tested-brightgreen)]()  
-[![🧪 Omega (Classic) Untested](https://img.shields.io/badge/Omega-untested-lightgrey)]()  
+**Q: Do I need to patch games before putting them on the EZ-Flash?**  
+**A:** No, only if you're playing a ROM hack. Clean games work without patching.
 
-- 📁 Folders:
-  - `/THEMES/Simple_DE_Dark/`
-  - `/THEMES/Simple_DE_Light/`
-- 🎨 Variants:
-  - **Simple DE Dark** – ✅ *Tested working on Omega DE*
-  - **Simple DE Light** – ✅ *Tested working on Omega DE*
-  - **Simple (Classic)** – 🧪 *Likely for original Omega, not yet tested*
-- 🛠 Author: **Sterophonick**
-- 📝 Notes: Rounded UI, plugin support, auto-save backup integration, clean font, and kernel language enhancements.
+**Q: Why does my ROM not appear on the EZ-Flash menu?**  
+**A:** It may be in the wrong folder, corrupted, or unsupported. Check file extension (`.gba`, `.gb`, `.gbc`, `.nes`) and ensure it’s not nested too deep.
+
+**Q: Is it safe to remove the SD card while the device is on?**  
+**A:** No. Always power off before removing the SD card to avoid save corruption.
 
 ---
 
-### [🖤 SuperDark-DE](https://github.com/f3bandit/SuperDark-Omega-DE?tab=readme-ov-file)
-[![✅ Omega DE Tested](https://img.shields.io/badge/Omega_DE-tested-brightgreen)]()  
+### 💾 Saving Issues
 
-- 📁 Folder: `/THEMES/SuperDark_DE/`
-- 🛠 Author: **f3bandit**
-- 📝 Notes: A minimalist dark UI built for the Omega DE’s skn system.
+**Q: My save file keeps disappearing. What’s wrong?**  
+**A:** You may not be saving properly. Always:
+1. Save in-game **twice**
+2. Wait ~5–10 seconds after saving
+3. Return to kernel menu before powering off
 
----
-
-### [🖤 AquaBerry Theme](https://github.com/mewoocat/omega-de-kernel-AquaBerry)
-[![✅ Omega DE Tested](https://img.shields.io/badge/Omega_DE-tested-brightgreen)]()  
-
-- 📁 Folder: `/THEMES/AquaBerry/`
-- 🛠 Author: **mewoocat**
-- 📝 Notes: Bright, colorful interface with custom icons and soft edges.
+**Q: Do I need to press a button to save manually?**  
+**A:** No — saves are committed automatically if you return to the kernel menu (unless you turned off autosave). For extra safety, soft reset (`L+R+Select`) to return instead of powering off (if you loaded with Addon).
 
 ---
 
-## ❓ Experimental / Legacy Theme Support
+### 🎨 Themes & Skins
 
-### [🎮 EZ-Flash IV Skin – EZDS](https://gbatemp.net/download/ez-flash-iv-skin-ezds.28738/)
-[![🧪 EZ-Flash IV Untested](https://img.shields.io/badge/EZ--Flash_IV-untested-lightgrey)]()  
+**Q: Can I use any theme on Omega DE?**  
+**A:** Only `.skn` themes designed for the Omega DE will work properly. Some Omega (classic) themes may partially work but are untested.
 
-- 🛠 Author: **Kiaku**
-- 📝 Notes: DSi-inspired interface. May require conversion for use with Omega DE.
+> 💡 Some themes may also require a **custom kernel** to be installed to appear correctly. For examples, see [Theme Files.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Docs/Theme_Files.md).
+
+**Q: Why is my theme not loading correctly?**  
+**A:** Check:
+- Your folder is in `/THEMES/`
+- The `.skn` file and assets are not nested in subfolders
+- Your kernel is updated to the latest version
+
+---
+
+### 🖼️ Thumbnails
+
+**Q: My thumbnails don’t appear. What’s wrong?**  
+**A:** Check the following:
+- File is `.bps`
+- Name matches **exactly** the 4-letter ROM serial (use GBATA or RHEA to check)
+- Correct folder path: `/IMGS/B/P/BPRE.bps` (case-sensitive)
+
+**Q: How do I find the correct 4-letter serial?**  
+**A:** Use tools like [GBATA](https://www.romhacking.net/utilities/601/) or [RHEA](https://www.romhacking.net/utilities/542/).
 
 ---
 
-## 💬 Want Your Theme Listed?
+### 🧩 Cheats
 
-Submit your theme folder, screenshots, and which model(s) it works with via a [GitHub Issue](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues).
-
-We’ll test and categorize it appropriately in this archive.
+**Q: Cheats aren’t working. Help!**  
+**A:**
+- Enable cheats from `Start → Options → Cheat Support = On`
+- Place `CHEAT.DB` inside `/CHEAT/`
+- ROM name must match the entry in the cheat database
+- Use converted codes if raw GameShark/CodeBreaker don't work
 
 ---
-📁 Back to: [EZ-Flash Guide 2025](../README.md)
+
+### 🗂️ Files & Folders
+
+**Q: What’s the recommended folder structure?**  
+**A:**
+```
+/GBA/
+/GB/
+/GBC/
+/NES/
+/THEMES/
+/IMGS/
+/CHEAT/
+```
+
+**Q: Can I use exFAT or NTFS?**  
+**A:** Only FAT32 is officially supported. Use 64K allocation size for best results. exFAT may work but can cause issues.
+
+---
+
+### 📤 Still Need Help?
+
+Check out:
+- [Troubleshooting Guide](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Troubleshooting/README.md)
+- [Creating Thumbnails](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Creating_Thumbnails.md)
+- [Creating Themes](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Creating_Themes.md)
+
+Or [submit an issue on GitHub](https://github.com/ChimeraGaming/EZ-Flash_Guide/issues).
