@@ -35,7 +35,7 @@ This FAQ addresses common questions and concerns about the EZ-Flash Omega Defini
 **Q: Can I use any theme on Omega DE?**  
 **A:** Only `.skn` themes designed for the Omega DE will work properly. Some Omega (classic) themes may partially work but are untested.
 
-> 💡 Some themes may also require a **custom kernel** to be installed to appear correctly. For examples, see [Theme Files.md](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Docs/Theme%20Files.md).
+> 💡 Some themes may also require a **custom kernel** to be installed to appear correctly. For examples, see [Theme Files.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Docs/Theme_Files.md).
 
 **Q: Why is my theme not loading correctly?**  
 **A:** Check:
@@ -91,8 +91,8 @@ This FAQ addresses common questions and concerns about the EZ-Flash Omega Defini
 ### 📤 Still Need Help?
 
 Check out:
-- [Troubleshooting Guide](./Troubleshooting/Troubleshooting.md)
-- [Creating Thumbnails](./Tutorials/Creating%20Thumbnails.md)
-- [Creating Themes](./Tutorials/Creating%20Themes.md)
+- [Troubleshooting Guide](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Troubleshooting/README.md)
+- [Creating Thumbnails](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Creating_Thumbnails.md)
+- [Creating Themes](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Creating_Themes.md)
 
-Or [submit an issue on GitHub](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues).
+Or [submit an issue on GitHub](https://github.com/ChimeraGaming/EZ-Flash_Guide/issues).
