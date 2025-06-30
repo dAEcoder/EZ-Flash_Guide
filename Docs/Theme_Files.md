@@ -8,7 +8,7 @@ Submit new themes or compatibility confirmations via [GitHub Issues](https://git
 ## 🛠 Want to Make Your Own Theme?
 
 Check out the full walkthrough:  
-📘 **[Creating Themes.md](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Tutorials/Creating%20Themes.md)** – Tools, templates, file structure, color palettes, and tips for building `.skn` themes from scratch.  
+📘 **[Creating Themes.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Creating_Themes.md)** – Tools, templates, file structure, color palettes, and tips for building `.skn` themes from scratch.  
 Covers *SkinSimple* compatibility, Omega DE kernel behavior, and graphic limitations.
 
 ---
