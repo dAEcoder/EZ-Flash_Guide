@@ -8,13 +8,13 @@ Whether you're a beginner or a flashcart veteran, these tutorials are here to he
 
 ## 📘 Available Tutorials
 
-- 🧠 **[Cheats.md](./Cheats.md)**  
+- 🧠 **[Cheats.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Cheats.md)**  
   Learn how to enable and use cheat codes, including how to import, activate, and manage them on your Omega DE.
 
-- 🎨 **[Creating Themes.md](./Creating%20Themes.md)**  
+- 🎨 **[Creating Themes.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Creating_Themes.md)**  
   A full walkthrough for designing and applying custom `.skn` themes for the Omega DE. Includes tools, templates, and tips.
 
-- 💾 **[Editing Save Files.md](./Editing%20Save%20Files.md)**  
+- 💾 **[Editing Save Files.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Editing_Save_Files.md)**  
   Safely extract, edit, and restore `.sav` files with tools like PKHeX, A‑Save, and more.  
   Includes backup instructions, PKMDS error fixes, save workflow, and file conversion tips.
 
@@ -22,4 +22,4 @@ Whether you're a beginner or a flashcart veteran, these tutorials are here to he
 
 ---
 
-📁 Return to the main guide: [EZ-Flash Guide 2025](../README.md)
+📁 Return to the main guide: [EZ-Flash Guide 2025](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/README.md)
