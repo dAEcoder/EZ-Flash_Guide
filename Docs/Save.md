@@ -149,4 +149,4 @@ or
 
 🧠 **The deeper the file, the more likely save detection fails.** Some themes or kernels may handle deep folders better, but to guarantee compatibility — **keep your ROMs no deeper than 1–2 folders down from root**.
 
-🗂️ Refer to the [Directory Structure Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Directory%20Structure.md) for visual examples and best practices.
+🗂️ Refer to the [Directory Structure Guide](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Docs/Directory_Structure.md) for visual examples and best practices.
