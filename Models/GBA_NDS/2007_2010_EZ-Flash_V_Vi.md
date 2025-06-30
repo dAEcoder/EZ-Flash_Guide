@@ -64,8 +64,3 @@
 - Obsolete today, but part of flashcart history
 - No longer manufactured; mostly collector interest
 
----
-
-## 🧭 See Also
-- [EZ-Flash 3-in-1](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Models/%5B2007%5D%20EZ-Flash%203in1.md) for GBA support
-- [EZ-Flash Omega](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Models/%5B2018%5D%20EZ-Flash%20Omega.md) for modern GBA carts
