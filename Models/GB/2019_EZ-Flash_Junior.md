@@ -53,7 +53,7 @@ The EZ-Flash Junior is a flash cartridge designed for Game Boy and Game Boy Colo
 
 - [EZ Flash Jr Official Firmware & Kernel](https://www.ezflash.cn/download/)
 - Kernel file name: `EZFLASHJR.BIN`
-- Community recommend formatting tool: [guiformat](https://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) (FAT32 only)
+- Community recommend formatting tool: [guiformat](https://guiformat.com/) (FAT32 only)
 
 ---
 
