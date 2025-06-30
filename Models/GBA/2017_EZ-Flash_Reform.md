@@ -37,10 +37,3 @@ The **EZ-Flash Reform** was released in 2017 as a follow-up to the EZ-Flash IV. 
 - Requires firmware updates via EZClient tool
 - Save patching may be required for older games
 
----
-
-## 🗂️ Related Docs
-- [EZ-Flash IV (Predecessor)](./EZ-Flash%20IV.md)
-- [EZ-Flash Omega (Successor)](./EZ-Flash%20Omega.md)
-- [Main Features Index](../Model_Features/README.md)
-
