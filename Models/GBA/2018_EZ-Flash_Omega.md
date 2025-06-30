@@ -32,12 +32,3 @@ The EZ-Flash Omega is a powerful flash cartridge designed specifically for the G
 - **Saves require** exiting to the menu or rebooting to flush data to SD.
 - **Supports patching** for SRAM/EEPROM save types automatically.
 
----
-
-## 📚 Related Resources
-
-- [EZ-Flash Omega Product Page](https://www.ezflashomega.com/products/ez-flash-omega)
-- [Setup Guide](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Setup.md)
-- [Save Behavior](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Save.md)
-- [Cheats](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Cheats.md)
-- [Themes](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Theme%20Files.md)
