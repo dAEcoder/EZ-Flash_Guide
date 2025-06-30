@@ -1,15 +1,15 @@
 # 🎮 Chimera EZ-Guide (All EZ-Flash Models)
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](../../issues)
 [![Build Status](https://img.shields.io/badge/status-WIP-yellow.svg)]()
 [![EZ-Flash Models](https://img.shields.io/badge/models-EZ--Flash--All-blueviolet)](./Models)
-[![Cheats Supported](https://img.shields.io/badge/Cheats-Supported-red)](./Cheats.md)
-[![Save Types](https://img.shields.io/badge/Save%20Types-SRAM%2C%20FRAM%2C%20Flash128k-orange)](./Save.md)
-[![Themes Supported](https://img.shields.io/badge/Themes-Supported-blue)](./Docs/Theme%20Files.md)
-[![Homebrew Supported](https://img.shields.io/badge/Homebrew-Supported-blue)](./Homebrew.md)
+[![Cheats Supported](https://img.shields.io/badge/Cheats-Supported-red)](./Tutorials/Cheats.md)
+[![Save Types](https://img.shields.io/badge/Save%20Types-SRAM%2C%20FRAM%2C%20Flash128k-orange)](./Docs/Save.md)
+[![Themes Supported](https://img.shields.io/badge/Themes-Supported-blue)](./Docs/Theme_Files.md)
+[![Homebrew Supported](https://img.shields.io/badge/Homebrew-Supported-blue)](./Docs/Homebrew.md)
 [![🧠 FAQ](https://img.shields.io/badge/%F0%9F%A7%A0-FAQ-lightgrey)](./FAQ.md)
-[![🛠 Recommended Tools](https://img.shields.io/badge/Tools-Recommended-brightgreen)](./Docs/Recommended%20Tools.md)
+[![🛠 Recommended Tools](https://img.shields.io/badge/Tools-Recommended-brightgreen)](./Docs/Recommended_Tools.md)
 
 ---
 
@@ -35,15 +35,20 @@ It includes everything from setup, themes, save handling, cheats, directory stru
 ## 🧱 Core Docs
 
 - ⚙️ [Setup Guide](./Docs/Setup.md)  
-- 📁 [Directory Structure](./Docs/Directory%20Structure.md)  
+- 📁 [Directory Structure](./Docs/Directory_Structure.md)  
 - 💾 [Save Behavior Guide](./Docs/Save.md)  
-- 🧪 [Cheat Code Conversion](./Cheats.md)  
-- 🎨 [Theme Files](./Docs/Theme%20Files.md)  
-- 🛠️ [Troubleshooting](./Troubleshooting/Troubleshooting.md)  
+- 🧪 [Cheat Code Conversion](./Tutorials/Cheats.md)  
+- 🎨 [Theme Files](./Docs/Theme_Files.md)  
+- 🛠️ [Troubleshooting Index](./Troubleshooting/README.md)  
+  - [RTC Issues](./Troubleshooting/Real_Time_Clock.md)  
+  - [No Nintendo Logo Fix](./Troubleshooting/Crystal_Oscillator_Failure_No_Nintendo_Logo_Fix.md)  
 - 📘 [FAQ](./FAQ.md)  
-- 🖼️ [Creating Thumbnails](./Tutorials/Creating%20Thumbnails.md)  
-- 🎨 [Creating Themes](./Tutorials/Creating%20Themes.md)  
-- 🔧 [Recommended Tools](./Docs/Recommended%20Tools.md)
+- 🖼️ [Creating Thumbnails](./Tutorials/Creating_Thumbnails.md)  
+- 🎨 [Creating Themes](./Tutorials/Creating_Themes.md)  
+- 💾 [Editing Save Files](./Tutorials/Editing_Save_Files.md)  
+- 🧰 [Recommended Tools](./Docs/Recommended_Tools.md)  
+- 🧪 [ROM Dumping & Patching](./Tutorials/ROM_Dumping_and_Patching.md)  
+- 🔧 [Homebrew Apps](./Docs/Homebrew.md)
 
 ---
 
@@ -53,16 +58,14 @@ Each flashcart model now has its own dedicated page for specs, features, and cav
 ➡️ View all: [`/Models`](./Models)
 
 ### 🔢 Sorted by Release Year:
-- [2001 – EZ-Flash Advance](./Models/%5B2001%5D%20EZ-Flash%20Advance.md)
-- [2005 – EZ-Flash III](./Models/%5B2005%5D%20EZ-Flash%20III.md)
-- [2005 – EZ-Flash IV](./Models/%5B2005%5D%20EZ-Flash%20IV.md)
-- [2007 – EZ-Flash 3-in-1](./Models/%5B2007%5D%20EZ-Flash%203in1.md)
-- [2007–2010 – EZ-Flash V & Vi](./Models/%5B2007-2010%5D%20EZ-Flash%20V%20%26%20Vi.md)
-- [2017 – EZ-Flash Reform](./Models/%5B2017%5D%20EZ-Flash%20Reform.md)
-- [2018 – EZ-Flash Omega](./Models/%5B2018%5D%20EZ-Flash%20Omega.md)
-- [2019 – EZ-Flash Junior](./Models/%5B2019%5D%20EZ-Flash%20Junior.md)
-- [2021 – EZ-Flash Omega Definitive Edition](./Models/%5B2021%5D%20EZ-Flash%20Omega%20Definitive%20Edition.md)
-- [2023 – EZ-Flash Parallel](./Models/%5B2023%5D%20EZ-Flash%20Parallel.md)
+- [2001 – EZ-Flash Advance](./Models/GBA/2001_EZ-Flash_Advance.md)
+- [2005 – EZ-Flash III](./Models/GBA/2005_EZ-Flash_III.md)
+- [2005 – EZ-Flash IV](./Models/GBA/2005_EZ-Flash_IV.md)
+- [2017 – EZ-Flash Reform](./Models/GBA/2017_EZ-Flash_Reform.md)
+- [2018 – EZ-Flash Omega](./Models/GBA/2018_EZ-Flash_Omega.md)
+- [2019 – EZ-Flash Junior](./Models/GB/2019_EZ-Flash_Junior.md)
+- [2021 – EZ-Flash Omega Definitive Edition](./Models/GBA/2021_EZ-Flash_Omega_Definitive_Edition.md)
+- [2023 – EZ-Flash Parallel](./Models/All_DS/2023_EZ-Flash_Parallel.md)
 
 ---
 
