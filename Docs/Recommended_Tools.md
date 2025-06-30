@@ -54,7 +54,7 @@ This page lists trusted tools to help with patching, verifying, editing, and man
 | Tool | Function |
 |------|----------|
 | [SD Card Formatter](https://www.sdcard.org/downloads/formatter/) | Official tool from SD Association |
-| [GUIFormat](https://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) | FAT32 formatter for 64GB+ cards on Windows |
+| [GUIFormat](https://guiformat.com/) | FAT32 formatter for 64GB+ cards on Windows |
 
 ---
 
