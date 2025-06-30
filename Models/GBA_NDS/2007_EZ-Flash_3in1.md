@@ -63,10 +63,4 @@
 
 ---
 
-## 📚 Related Entries
-- [EZ-Flash V & Vi](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Models/%5B2007-2010%5D%20EZ-Flash%20V%20%26%20Vi.md)
-- [EZ-Flash Omega](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/blob/main/Models/%5B2018%5D%20EZ-Flash%20Omega.md)
-
----
-
 ## 📅 Release Year: **2007**
