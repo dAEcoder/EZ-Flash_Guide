@@ -82,7 +82,7 @@ Omega carts come with:
 🪄 You can also rename a `.skn` to `default.skn` to auto-load it.
 
 For custom theme creation, check:  
-📘 [Creating Themes.md](../Tutorials/Creating%20Themes.md)
+📘 [Creating Themes.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Creating_Themes.md)
 
 ---
 
@@ -95,15 +95,14 @@ For custom theme creation, check:
 - Then remove the SD card and manage `.sav` files on PC
 
 For advanced edits:  
-🧬 [Editing Save Files.md](../Tutorials/Editing%20Save%20Files.md)
+🧬 [Editing Save Files.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Tutorials/Editing_Save_Files.md)
 
 ---
 
 ## 🧪 Want More Features?
 
 - Cheats: [Cheats.md](../Tutorials/Cheats.md)
-- Themes: [Theme Files.md](../Docs/Theme%20Files.md)
-- Troubleshooting: [Troubleshooting.md](../Troubleshooting/Troubleshooting.md)
+- Themes: [Theme Files.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Docs/Theme_Files.md)
 
 ---
 
