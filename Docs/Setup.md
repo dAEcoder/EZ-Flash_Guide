@@ -38,7 +38,7 @@ Omega carts come with:
 | Format | Card Size         | Recommended? | Notes |
 |--------|-------------------|--------------|-------|
 | FAT32  | 4–32 GB            | ✅ Yes        | Native support; stable |
-| FAT32  | 64–128 GB          | ✅ Yes        | Use [GUIFormat](https://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) to format |
+| FAT32  | 64–128 GB          | ✅ Yes        | Use [GUIFormat](https://guiformat.com/) to format |
 | exFAT  | 64–256 GB+         | ⚠️ Risky      | May cause save errors; not officially supported |
 | NTFS   | Any                | ❌ No         | Not recognized by EZ-Flash |
 | FAT16  | 2 GB or less       | ⚠️ Limited    | Works, but not recommended |
