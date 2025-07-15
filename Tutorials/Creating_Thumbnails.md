@@ -2,6 +2,8 @@
 
 This guide walks you through creating and using **game thumbnails** on your EZ-Flash Omega Definitive Edition.
 
+➡️ [Jump to GBC/GB Thumbnail Guide](#🎮-bonus-creating-gbcgb-multi-rom-thumbnails-goomba-method)
+
 ---
 
 ## 🧠 What Are Thumbnails?
@@ -95,4 +97,74 @@ Once your thumbnail is complete:
 
 ---
 
-📁 Return to: [Tutorials Index](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/tree/main/Troubleshooting)
+## 🎮 Bonus: Creating GBC/GB Multi-ROM Thumbnails (Goomba Method)
+
+You can compile One or Multiple Game Boy or Game Boy Color ROMs into a single `.gba` file using **Goomba Front**, then assign a custom Game ID for thumbnail compatibility.
+
+### ⚙️ Goomba Front Steps
+
+> Steps in visual order from top to bottom of the window.
+
+1. **Select Emulator File**  
+   Choose `goomba.gba` (provided with Goomba Front)
+
+2. **Select Output File**  
+   Choose where to save the compiled `.gba` file and name it appropriately (e.g., `ZeldaSeasons.gba`)
+
+3. **Add GB/GBC Games**  
+   Browse and add `.gb` or `.gbc` files  
+   - Add one or multiple  
+   - Right-click the title on the right panel to rename its **Game Serial** (this is the **Game ID** used for thumbnails)
+
+4. Click **Compile**
+
+---
+
+### 🖼 Thumbnail for Goomba `.gba`
+
+- Must be a **40×56**, **8-bit** uncompressed BMP
+- File name must match the compiled `.gba` file:
+  ```
+  ZeldaSeasons.gba
+  ZeldaSeasons.bmp
+  ```
+
+Place both on your SD card in the same folder.
+
+---
+
+### ✏️ Modify & Verify Header/Serial in Hex Editor (Use this instead of RHEA as it will break the gba file and load up white)
+
+Open the `.gba` file in HxD or GBATA and verify: (Usually Line 11)
+
+| Field         | Offset     | Example (`ZROA`)         |
+|---------------|------------|--------------------------|
+| Game Title    | `0xA0–0xAB`| `ZELDA ROA   ` (12 bytes padded with spaces) |
+| Game Code     | `0xAC–0xAF`| `ZROA`                   |
+| Maker Code    | `0xB0–0xB1`| `01` (Nintendo)          |
+<img width="679" height="309" alt="image" src="https://github.com/user-attachments/assets/0e64c737-afcd-4966-9c16-4a4e3941d242" />
+
+---
+
+### ✅ Testing on EZ-Flash DE
+
+1. Boot the flashcart
+2. Press **SELECT** to toggle **Thumbnail View**
+3. Your Goomba `.gba` file will now show its thumbnail
+4. Launching it should open the Goomba menu with your GBC/GB ROMs or Direct if you only did 1 Game (Recommended for multiple Thumbnails)
+
+---
+
+## 🧮 HEX Table Guide
+
+When modifying ROM headers manually (for Game Titles or Game Codes), you need to convert letters and numbers into hex bytes.
+
+📚 Use this full ASCII/HEX reference:
+
+👉 [https://www.asciitable.com/](https://www.asciitable.com/)
+
+## Successful GBC Thumbnail
+![466581790-c8a6cf16-fb3e-4afa-baad-aa91a47c8c7e_50](https://github.com/user-attachments/assets/6e491d40-5f12-4bf0-a411-7c3c8dbb85eb)
+
+
+---
