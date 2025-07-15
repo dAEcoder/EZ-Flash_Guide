@@ -2,7 +2,7 @@
 
 This guide walks you through creating and using **game thumbnails** on your EZ-Flash Omega Definitive Edition.
 
-➡️ [Jump to GBC/GB Thumbnail Guide](#🎮-bonus-creating-gbcgb-multi-rom-thumbnails-goomba-method)
+[Jump to GBC/GB Thumbnail Guide](#bonus-creating-gbcgb-multi-rom-thumbnails-goomba-method)
 
 ---
 
@@ -97,7 +97,7 @@ Once your thumbnail is complete:
 
 ---
 
-## 🎮 Bonus: Creating GBC/GB Multi-ROM Thumbnails (Goomba Method)
+## Bonus: Creating GBC/GB Multi-ROM Thumbnails (Goomba Method)
 
 You can compile One or Multiple Game Boy or Game Boy Color ROMs into a single `.gba` file using **Goomba Front**, then assign a custom Game ID for thumbnail compatibility.
 
