@@ -1,4 +1,4 @@
-# Creating Thumbnails for Omega DE
+# Creating Thumbnails for Omega DE 
 
 This guide walks you through creating and using **game thumbnails** on your EZ-Flash Omega Definitive Edition.
 
