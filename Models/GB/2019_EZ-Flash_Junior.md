@@ -6,19 +6,19 @@ The EZ-Flash Junior is a flash cartridge designed for Game Boy and Game Boy Colo
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
-- ✅ Supports **Game Boy** and **Game Boy Color** games
-- ✅ microSD card support (FAT32, up to 32GB recommended)
-- ✅ Real-Time Clock (RTC) built-in
-- ✅ Cheat engine (limited support)
-- ✅ Firmware and Kernel upgradable via SD
-- ✅ Drag-and-drop ROM loading (no patching needed)
-- ✅ In-game soft reset (via button combo)
+- Supports Game Boy and Game Boy Color games  
+- microSD card support (FAT32, up to 32GB recommended)  
+- Real-Time Clock (RTC) built-in  
+- Cheat engine (limited support)  
+- Firmware and Kernel upgradable via SD  
+- Drag-and-drop ROM loading (no patching needed)  
+- In-game soft reset (via button combo)  
 
 ---
 
-## 🗂️ File Layout
+## File Layout
 
 ```plaintext
 / (root)
@@ -31,34 +31,34 @@ The EZ-Flash Junior is a flash cartridge designed for Game Boy and Game Boy Colo
 
 ---
 
-## 💾 Save Support
+## Save Support
 
-- Uses battery-backed SRAM (internal battery required)
-- Auto backs up save files to microSD upon reset or powering off **after returning to the menu**
-- If you power off mid-game or pull the cart without menu return, **your save will not be written** to SD
-- Compatible with **32K SRAM** and **MBC-based** save types
-
----
-
-## ⚠️ Known Limitations
-
-- ❌ No save states
-- ❌ No native support for homebrew with custom save types
-- ❌ RTC doesn’t work until it’s set in the settings screen
-- ❌ Save loss if user powers off mid-game without returning to menu
+- Uses battery-backed SRAM (internal battery required)  
+- Auto backs up save files to microSD upon reset or powering off **after returning to the menu**  
+- If you power off mid-game or pull the cart without menu return, **your save will not be written** to SD  
+- Compatible with 32K SRAM and MBC-based save types  
 
 ---
 
-## 🛠 Tools & Firmware
+## Known Limitations
 
-- [EZ Flash Jr Official Firmware & Kernel](https://www.ezflash.cn/download/)
-- Kernel file name: `EZFLASHJR.BIN`
-- Community recommend formatting tool: [guiformat](https://guiformat.com/) (FAT32 only)
+- No save states  
+- No native support for homebrew with custom save types  
+- RTC doesn’t work until it’s set in the settings screen  
+- Save loss if user powers off mid-game without returning to menu  
 
 ---
 
-## 📝 Notes
+## Tools & Firmware
 
-- Uses a CR2025 battery (user-replaceable)
-- Firmware updates may reset time settings
-- Some original Game Boy games may boot to a black screen unless reset with START+SELECT+A+B
+- [EZ Flash Jr Official Firmware & Kernel](https://www.ezflash.cn/download/)  
+- Kernel file name: `EZFLASHJR.BIN`  
+- Community recommended formatting tool: [guiformat](https://guiformat.com/) (FAT32 only)  
+
+---
+
+## Notes
+
+- Uses a CR2025 battery (user-replaceable)  
+- Firmware updates may reset time settings  
+- Some original Game Boy games may boot to a black screen unless reset with START+SELECT+A+B  
