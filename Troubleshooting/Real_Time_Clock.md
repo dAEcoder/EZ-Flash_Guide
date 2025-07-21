@@ -1,88 +1,88 @@
-## 🕒 RTC Retention Issues
-### 🧩 Problem Overview
+## RTC Retention Issues
 
-Some users experience **RTC (Real-Time Clock)** issues when transferring `.sav` files between authentic Pokémon cartridges, the EZ Flash Omega DE (EZFODE), R4 cards, and emulators like mGBA. Common symptoms include:
+### Overview
+
+Some users experience **RTC (Real-Time Clock)** issues when transferring `.sav` files between authentic Pokémon cartridges, the EZ-Flash Omega DE (EZFODE), R4 cards, and emulators like mGBA. Common symptoms include:
 
 - Berries not growing
 - Daily events not triggering
-- Clock-based events stuck or desynced
+- Clock-based events stuck or out of sync
 
-This happens when the RTC in `.sav` files becomes inaccurate or unsynchronized.
-
----
-
-### ✅ Solutions to Keep RTC Accurate
-
-#### 1. 🕹️ **Use mGBA to Adjust RTC**
-
-- Load your `.sav` and `.gba` file in **mGBA**.
-- Let the game run for a few seconds to resync with real-world time.
-- Save in-game and export the `.sav`.
-- Move the updated `.sav` to your EZFODE `/SAVER/` folder or root, depending on your setup.
-
-> ✅ Best for syncing real-time events (e.g. berries, tides, clocks).
+This occurs when the RTC in `.sav` files becomes inaccurate or desynchronized.
 
 ---
 
-#### 2. 🛠️ **Edit Time-Based Events Using PKHeX**
+### Solutions to Keep RTC Accurate
 
-- Load the `.sav` in **PKHeX**.
-- PKHeX won’t fix the RTC directly but lets you view and adjust time-sensitive flags and data (e.g. mystery gift timers, daycare, events).
-- Save the file and re-export.
+#### 1. Use mGBA to Adjust RTC
 
-> 🧠 Use if in-game timers are broken but you need a quick fix.
+- Load your `.sav` and `.gba` file in **mGBA**
+- Let the game run for a few seconds to resync the clock
+- Save in-game and export the `.sav`
+- Move the updated `.sav` to your EZFODE `/SAVER/` folder
 
----
-
-#### 3. 💾 **Flash ROMs to NOR Mode on EZFODE**
-
-- In EZFODE, press `SELECT` on your Pokémon ROM and choose **Write to NOR Clean**.
-- This makes the game persistently loaded with better RTC stability between boots.
-- Ensure your `.sav` file has the **exact same name** as the `.gba` file.
-
-> 🧩 Recommended for Gen III Pokémon games to preserve RTC properly.
+Best for syncing real-time events (e.g., berries, tides, clocks)
 
 ---
 
-#### 4. ⚠️ **Avoid Using GB Operator for RTC Save Transfers**
+#### 2. Edit Time-Based Events Using PKHeX
 
-- The **Epilogue GB Operator** (even in beta) does not retain RTC precisely.
-- Any delay between dumping and restoring causes clock drift.
-- It’s great for backups, but not reliable for syncing real-time saves.
+- Load the `.sav` file in **PKHeX**
+- While it won’t adjust RTC directly, you can view and fix time-sensitive data (e.g., mystery gift timers, daycare status)
+- Save and export the file
 
-> 🕓 Not suitable for maintaining accurate RTC.
-
----
-
-#### 5. 🔋 **Replace Cartridge Battery for Authentic RTC**
-
-- If using original carts, a dead CR2025 or CR1616 battery means no RTC.
-- Replace battery, then use tools (e.g. R4 RTC fixer) to resync clock.
-
-> 🧪 Works only on real hardware, not flash carts.
+Use this when timers are broken but you need a quick workaround
 
 ---
 
-### 🧠 Summary Table
+#### 3. Flash ROMs to NOR Mode on EZFODE
 
-| Task                          | Tool        | Purpose                          |
-|-------------------------------|-------------|----------------------------------|
-| Fix/Sync RTC in `.sav`        | `mGBA`      | Real-time synchronization        |
-| Edit time-based save data     | `PKHeX`     | Fix flags, events, timers        |
-| Retain RTC across sessions    | `EZFODE NOR`| Persistent game + save pairing   |
-| Avoid inaccurate clock reads  | `GB Operator` | Not RTC-safe yet (beta)         |
-| Hardware RTC retention        | Real Cart   | Replace battery + fix RTC        |
+- On the EZFODE, press `SELECT` on your Pokémon ROM and choose **Write to NOR Clean**
+- This pins the game to NOR memory, increasing RTC stability
+- Ensure the `.sav` has the exact same filename as the `.gba`
+
+Recommended for Gen III Pokémon titles
 
 ---
 
-### 📌 Tip:
+#### 4. Avoid Using GB Operator for RTC Transfers
 
-Always keep `.gba` and `.sav` filenames identical, and store them in shallow folders like:
+- The Epilogue GB Operator does not maintain RTC data accurately
+- Any delay between dumping and writing can cause time drift
+- Use it for backups, not active RTC-based saves
+
+Not currently reliable for RTC synchronization
+
+---
+
+#### 5. Replace Cartridge Battery (Original Carts Only)
+
+- Replace the CR2025 or CR1616 battery in real Pokémon cartridges
+- Use tools like the R4 RTC fixer or mGBA to reinitialize RTC
+
+Applies only to original hardware, not flashcarts
+
+---
+
+### Summary Table
+
+| Task                          | Tool          | Purpose                          |
+|-------------------------------|---------------|----------------------------------|
+| Fix/Sync RTC in `.sav`        | mGBA          | Real-time clock synchronization  |
+| Edit time-based save data     | PKHeX         | View/fix events and timers       |
+| Preserve RTC between boots    | EZFODE NOR    | Persistent save + RTC stability  |
+| Avoid inaccurate clock reads  | GB Operator   | Not RTC-safe (beta limitations)  |
+| Physical RTC restoration      | Original Cart | Replace battery + reset RTC      |
+
+---
+
+### Best Practices
+
+Always ensure `.gba` and `.sav` filenames match exactly, and keep them in simple, shallow folders:
 
 ```
 /GBA/YourGame.gba  
 /SAVER/YourGame.sav
 ```
 
-This improves save detection and RTC compatibility.
-
+This improves RTC handling and save detection on flashcarts.
