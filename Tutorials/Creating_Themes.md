@@ -1,57 +1,60 @@
-# 🎨 Creating Themes for EZ-Flash Omega DE
+# Creating Themes for EZ-Flash Omega DE
 
 The EZ-Flash Omega Definitive Edition supports full UI customization using `.skn` themes. This guide — based directly on Sterophonick’s official “How to Skin Simple” tutorial — walks you through designing, packaging, and applying your own theme.
 
 ---
 
-## 🧰 What You’ll Need
+## What You’ll Need
 
-- An **EZ-Flash Omega Definitive Edition** (themes are **not supported** on the original Omega)
+- An EZ-Flash Omega Definitive Edition (themes are not supported on the original Omega)
 - A pixel-art-friendly image editor (GIMP, Photoshop, Paint.NET, etc.)
 - Python 3 (to use the provided theme compiler)
 - An SD card with your Omega DE’s `EZFLASH/` folder
 
 ---
 
-## 🛠 Tools & References
+## Tools & References
 
-### 📘 Skinning Guide
-- **How to Skin Simple – by Sterophonick**  
+### Skinning Guide
+
+- How to Skin Simple – by Sterophonick  
   https://atapi.space/site/projects/atlantis/howtoskinsimple/  
-  > The definitive resource for creating `.skn` themes. Includes structure, color formatting, and Python tools.
+  The definitive resource for creating `.skn` themes. Includes structure, color formatting, and Python tools.
 
-### 🎶 Bonus – Maxmod (Not for themes)
-- **Maxmod** – A sound engine for GBA/DS homebrew  
+### Bonus – Maxmod (Not for themes)
+
+- Maxmod – A sound engine for GBA/DS homebrew  
   https://maxmod.org/  
-  > ⚠️ Maxmod is **not used for theming**, but is a great tool if you're building custom GBA homebrew. Be aware of its RAM demands on real hardware.
+  Maxmod is not used for theming, but is a great tool if you're building custom GBA homebrew. Be aware of its RAM demands on real hardware.
 
 ---
 
-## 📁 Theme File Structure
+## Theme File Structure
 
 A `.skn` theme is a compiled archive containing multiple indexed PNG files:
 
-| File                  | Purpose                                 |
-|-----------------------|-----------------------------------------|
-| `mainmenu.png`        | Main menu background (256×192px)        |
-| `font.png`            | Bitmap font sheet (optional)            |
-| `rom_icon.png`        | ROM file icon                           |
-| `folder_icon.png`     | Folder icon                             |
-| `battery_icons.png`   | Battery charge level display            |
-| `cheat_icon.png`      | Cheat availability indicator            |
-| `bookmark_icon.png`   | Bookmark status indicator               |
-| `keypad_icon.png`     | On-screen button icon                   |
-| `helpbox.png`         | Instruction/help window background      |
+| File                | Purpose                             |
+|---------------------|-------------------------------------|
+| `mainmenu.png`      | Main menu background (256×192px)    |
+| `font.png`          | Bitmap font sheet (optional)        |
+| `rom_icon.png`      | ROM file icon                       |
+| `folder_icon.png`   | Folder icon                         |
+| `battery_icons.png` | Battery charge level display        |
+| `cheat_icon.png`    | Cheat availability indicator        |
+| `bookmark_icon.png` | Bookmark status indicator           |
+| `keypad_icon.png`   | On-screen button icon               |
+| `helpbox.png`       | Instruction/help window background  |
 
-All images must be **8-bit indexed PNGs** to compile properly.
+All images must be 8-bit indexed PNGs to compile properly.
 
 ---
 
-## 🖌️ Build Your Theme (Step-by-Step)
+## Build Your Theme (Step-by-Step)
 
 ### 1. Get the Skin Template
 
-Download the folder structure and build script from the [How to Skin Simple](https://atapi.space/site/projects/atlantis/howtoskinsimple/) page.
+Download the folder structure and build script from the How to Skin Simple page:  
+https://atapi.space/site/projects/atlantis/howtoskinsimple/
 
 ---
 
@@ -59,7 +62,7 @@ Download the folder structure and build script from the [How to Skin Simple](htt
 
 Use your image editor to redesign the individual files. Maintain original image dimensions unless you understand the UI constraints.
 
-💡 *Use palette-based 8-bit PNGs. 24-bit or full-RGB PNGs will not compile or may break visuals.*
+Use palette-based 8-bit PNGs. 24-bit or full-RGB PNGs will not compile or may break visuals.
 
 ---
 
@@ -92,17 +95,17 @@ You can have multiple `.skn` files in this folder.
 ### 5. Apply the Theme
 
 - Boot your EZ-Flash Omega DE  
-- Hold **SELECT** to enter the system menu  
-- Navigate to **Themes** and pick your `.skn` file  
+- Hold SELECT to enter the system menu  
+- Navigate to Themes and pick your `.skn` file  
 
-✅ **The kernel will remember your selected theme**, and it will stay active across reboots.  
+The kernel will remember your selected theme, and it will stay active across reboots.  
 You don’t need to reapply it every time.
 
-> 💡 Want a theme to load by default on a clean setup? Rename it to `default.skn`.
+Want a theme to load by default on a clean setup? Rename it to `default.skn`.
 
 ---
 
-## 🧩 Tips for Better Themes
+## Tips for Better Themes
 
 - Use high contrast for readability on small screens  
 - Stick to a consistent pixel grid — it helps with clarity  
@@ -111,4 +114,4 @@ You don’t need to reapply it every time.
 
 ---
 
-📁 Return to Tutorials: [Tutorials README](./README.md)
+Return to Tutorials: [Tutorials README](./README.md)
