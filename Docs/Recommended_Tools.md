@@ -1,10 +1,10 @@
-# 🧰 Recommended Tools for EZ-Flash Users
+# Recommended Tools for EZ-Flash Users
 
 This page lists trusted tools to help with patching, verifying, editing, and managing ROMs, save files, themes, and thumbnails for the EZ-Flash Omega and Omega DE.
 
 ---
 
-## 🔧 ROM Patching Utilities
+## ROM Patching Utilities
 
 | Patch Type | Tool | Notes |
 |------------|------|-------|
@@ -15,7 +15,7 @@ This page lists trusted tools to help with patching, verifying, editing, and man
 
 ---
 
-## ✅ ROM Verification & Maintenance
+## ROM Verification & Maintenance
 
 | Tool | Function |
 |------|----------|
@@ -26,7 +26,7 @@ This page lists trusted tools to help with patching, verifying, editing, and man
 
 ---
 
-## 💾 Save File Editors & Converters
+## Save File Editors & Converters
 
 | Tool | Function |
 |------|----------|
@@ -36,7 +36,7 @@ This page lists trusted tools to help with patching, verifying, editing, and man
 
 ---
 
-## 🎨 Thumbnails and Theme Tools
+## Thumbnails and Theme Tools
 
 | Tool | Function |
 |------|----------|
@@ -49,7 +49,7 @@ This page lists trusted tools to help with patching, verifying, editing, and man
 
 ---
 
-## 🗜️ SD Card Formatting Tools
+## SD Card Formatting Tools
 
 | Tool | Function |
 |------|----------|
@@ -58,4 +58,4 @@ This page lists trusted tools to help with patching, verifying, editing, and man
 
 ---
 
-📁 Return to: [EZ-Flash Guide 2025](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide)
+Return to: [EZ-Flash Guide 2025](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide)
