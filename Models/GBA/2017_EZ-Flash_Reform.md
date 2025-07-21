@@ -1,4 +1,4 @@
-# EZ-Flash Reform (2017)
+# EZ-Flash Reform (2017) 
 
 ## Overview  
 The **EZ-Flash Reform** was released in 2017 as a follow-up to the EZ-Flash IV. It combined the microSD support of the IV with a modular design that included a removable battery and upgradable RAM module. It was designed for Game Boy Advance (GBA), GBA SP, and compatible Nintendo handhelds.
