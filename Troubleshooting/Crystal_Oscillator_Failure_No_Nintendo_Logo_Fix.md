@@ -1,6 +1,6 @@
-## 🛠️ EZ-Flash Omega — Crystal Oscillator Replacement Guide
+## EZ-Flash Omega — Crystal Oscillator Replacement Guide
 
-📎 Related discussion: [Issue #3 – Crystal Oscillator Failure (No Nintendo Logo)](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues/3)
+Related discussion: [Issue #3 – Crystal Oscillator Failure (No Nintendo Logo)](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues/3)
 
 If your EZ-Flash Omega boots **without showing the Nintendo logo**, and you've already:
 
@@ -14,29 +14,29 @@ Then the issue may be a **faulty crystal oscillator**.
 
 ---
 
-### ✅ Identifying the Faulty Component
+### Identifying the Faulty Component
 
 The oscillator is a small silver 4-pin SMD part, labeled `24.545`, located just below the yellow RTC battery.
 
-#### 📍 Oscillator Location  
+#### Oscillator Location  
 ![image](https://github.com/user-attachments/assets/6d72e5a4-8943-4c26-8fc9-d30adceea00a)
 
 ---
 
-### 🔧 Replacement Specifications
+### Replacement Specifications
 
 | Property   | Value                         |
 |------------|-------------------------------|
 | Type       | Crystal Oscillator (XO or TCXO) |
-| Frequency  | **24.545 MHz**                |
-| Voltage    | **3.3V**                      |
+| Frequency  | 24.545 MHz                    |
+| Voltage    | 3.3V                          |
 | Output     | CMOS / HCMOS                  |
-| Package    | **3225 (3.2mm × 2.5mm)**      |
+| Package    | 3225 (3.2 mm × 2.5 mm)        |
 | Pads       | 4-pad SMD                     |
 
 ---
 
-### 🔄 Recommended Part Search
+### Recommended Part Search
 
 Due to limited availability, we recommend manually searching for a compatible oscillator:
 
@@ -53,7 +53,7 @@ Make sure your part exactly matches the specifications above.
 
 ---
 
-### 🧰 Replacement Tips
+### Replacement Tips
 
 1. Use hot air or a fine-tip iron to desolder the old oscillator  
 2. Clean the pads with flux and solder wick  
@@ -65,7 +65,7 @@ Make sure your part exactly matches the specifications above.
 
 ---
 
-### ⚠️ Notes
+### Notes
 
 - Only replace this part if you're confident with SMD soldering or have access to proper tools.
 - Ensure the frequency is **exactly 24.545 MHz** — other values will cause the cart to fail detection.
