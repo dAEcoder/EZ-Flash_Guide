@@ -26,3 +26,4 @@ The EZ-Flash Air is a Slot-1 flashcart in a GBA-style shell for the Nintendo DS,
 - GBA support confirmed for DS/DS Lite; not documented for use in GBA/SP/Micro  
 - ROMs and saves managed through a built-in GUI  
 - Documentation will be updated as community testing progresses  
+- Released July 17, 2025
