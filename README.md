@@ -1,6 +1,6 @@
 # Chimera EZ-Guide (All EZ-Flash Models)
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](.LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Status: Active](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![Help Wanted](https://img.shields.io/badge/contributions-welcome-blue)](../../issues)
 [![Models: 11](https://img.shields.io/badge/models-11-blueviolet)](./Models)
