@@ -1,10 +1,10 @@
-# ❓ Frequently Asked Questions (FAQ)
+# Frequently Asked Questions (FAQ)
 
 This FAQ addresses common questions and concerns about the EZ-Flash Omega Definitive Edition and related tools.
 
 ---
 
-### 🔧 General Usage
+### General Usage
 
 **Q: Do I need to patch games before putting them on the EZ-Flash?**  
 **A:** No, only if you're playing a ROM hack. Clean games work without patching.
@@ -17,12 +17,12 @@ This FAQ addresses common questions and concerns about the EZ-Flash Omega Defini
 
 ---
 
-### 💾 Saving Issues
+### Saving Issues
 
 **Q: My save file keeps disappearing. What’s wrong?**  
 **A:** You may not be saving properly. Always:
-1. Save in-game **twice**
-2. Wait ~5–10 seconds after saving
+1. Save in-game twice  
+2. Wait ~5–10 seconds after saving  
 3. Return to kernel menu before powering off
 
 **Q: Do I need to press a button to save manually?**  
@@ -30,12 +30,12 @@ This FAQ addresses common questions and concerns about the EZ-Flash Omega Defini
 
 ---
 
-### 🎨 Themes & Skins
+### Themes & Skins
 
 **Q: Can I use any theme on Omega DE?**  
 **A:** Only `.skn` themes designed for the Omega DE will work properly. Some Omega (classic) themes may partially work but are untested.
 
-> 💡 Some themes may also require a **custom kernel** to be installed to appear correctly. For examples, see [Theme Files.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Docs/Theme_Files.md).
+Some themes may also require a custom kernel to be installed to appear correctly. For examples, see [Theme Files.md](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Docs/Theme_Files.md).
 
 **Q: Why is my theme not loading correctly?**  
 **A:** Check:
@@ -45,12 +45,12 @@ This FAQ addresses common questions and concerns about the EZ-Flash Omega Defini
 
 ---
 
-### 🖼️ Thumbnails
+### Thumbnails
 
 **Q: My thumbnails don’t appear. What’s wrong?**  
 **A:** Check the following:
 - File is `.bps`
-- Name matches **exactly** the 4-letter ROM serial (use GBATA or RHEA to check)
+- Name matches exactly the 4-letter ROM serial (use GBATA or RHEA to check)
 - Correct folder path: `/IMGS/B/P/BPRE.bps` (case-sensitive)
 
 **Q: How do I find the correct 4-letter serial?**  
@@ -58,7 +58,7 @@ This FAQ addresses common questions and concerns about the EZ-Flash Omega Defini
 
 ---
 
-### 🧩 Cheats
+### Cheats
 
 **Q: Cheats aren’t working. Help!**  
 **A:**
@@ -69,7 +69,7 @@ This FAQ addresses common questions and concerns about the EZ-Flash Omega Defini
 
 ---
 
-### 🗂️ Files & Folders
+### Files & Folders
 
 **Q: What’s the recommended folder structure?**  
 **A:**
@@ -88,7 +88,7 @@ This FAQ addresses common questions and concerns about the EZ-Flash Omega Defini
 
 ---
 
-### 📤 Still Need Help?
+### Still Need Help?
 
 Check out:
 - [Troubleshooting Guide](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Troubleshooting/README.md)
