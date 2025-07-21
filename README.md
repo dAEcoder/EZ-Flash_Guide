@@ -4,7 +4,7 @@
 [![Status: Active](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![Help Wanted](https://img.shields.io/badge/contributions-welcome-blue)](../../issues)
 [![Models: 11](https://img.shields.io/badge/models-11-blueviolet)](./Models)
-[![Features: Cheats, Saves, Themes](https://img.shields.io/badge/features-cheats%2C%20saves%2C%20themes-orange)](./Docs/Save.md)
+[![Features: Cheats, Saves, Themes](https://img.shields.io/badge/features-cheats%2C%20saves%2C%20themes-orange)](./Docs)
 
 
 ---
