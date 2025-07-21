@@ -1,52 +1,61 @@
 ---
-🧠 Updated Cheat Database
+Updated Cheat Database
 ---
 
 Looking for a more complete or updated cheat library?
 
-Check out these community effort to **convert the Libretro cheat database for EZ-Flash**:  
-🔗 [GBAtemp Thread – Convert the Libretro Database Cheats to EZ-Flash](https://gbatemp.net/threads/convert-the-libretro-database-cheats-to-ezflash.652742/) 
-- The .rar file found here does have more Cheats than EZ-Flash Official
+Check out these community efforts to **convert the Libretro cheat database for EZ-Flash**:
 
-🔗[Jer-IRL Github - Py 1-Line Convert Libretro Datbase Cheats to EZ-Flash](https://github.com/jer-irl/update_ezflash_cheats)
-- Amazing way to update all your cheats with 1 Command
-- Needs: "Nintendo - Game Boy Advance (20250602-123637).dat" & [Libretro-database-master](https://github.com/libretro/libretro-database) for the most up to date cheats.
+- [GBAtemp Thread – Convert the Libretro Database Cheats to EZ-Flash](https://gbatemp.net/threads/convert-the-libretro-database-cheats-to-ezflash.652742/)  
+  The `.rar` file found here includes more cheats than the official EZ-Flash database.
 
-📝 This project offers a much more extensive `.cht` library than the default one included with most firmware setups. It's a great resource if you're having trouble finding cheats for less common titles or newer ROM hacks.
+- [Jer-IRL GitHub – 1-Line Python Script to Convert Libretro Database to EZ-Flash Format](https://github.com/jer-irl/update_ezflash_cheats)  
+  - Easily update all your cheats with one command  
+  - Requires:
+    - `Nintendo - Game Boy Advance (20250602-123637).dat`
+    - [Libretro-database-master](https://github.com/libretro/libretro-database) (for the latest cheats)
 
-Make sure to follow the instructions provided in the thread for how to:
-- Merge converted `.cht` files
-- Organize them into your `CHEAT/` folder
-- Test them on your Omega or Omega DE
+This project offers a much more extensive `.cht` library than the default one included with most firmware setups. It’s a great option if you're looking for codes for obscure titles or new ROM hacks.
 
+Be sure to follow instructions in the thread for:
 
+- Merging converted `.cht` files
+- Organizing your `CHEAT/` folder
+- Testing on your Omega or Omega DE
 
 ---
+
 Custom Cheat Code Conversion
 ---
-Go to https://gamehacking.org/system/gba
 
-Example Explanation = https://ibb.co/CqJZDkx 
+Use [GameHacking.org GBA Section](https://gamehacking.org/system/gba) to find cheat codes.
 
-If you see ROM Patch, It means exactly that, it needs converted to a ROM PATCH 
-- Example Image: https://ibb.co/CKRW83mB 
-Someone helped me with a ROM PATCH for Shiny Pokemon in Pokemon Unbound (and explained how)
-- https://gbatemp.net/threads/ez-flash-omega-ded-i-need-help-with-custom-cheats.671909/#post-10667087
+Example explanation: https://ibb.co/CqJZDkx  
+If a code is labeled **ROM Patch**, it must be converted to a ROM patch (not a cheat code).
 
-Once you confirm that it is indeed RAM WRITE you can then convert it to EZ-Flash Format.
-- You can convert it Here: https://ar2cht.netlify.app/ #
-- All my testing so far confirmed same results when it's a RAM Write = Works
+Example image: https://ibb.co/CKRW83mB  
+For instance, this post shows how someone converted a shiny Pokémon ROM patch for Pokémon Unbound:  
+https://gbatemp.net/threads/ez-flash-omega-ded-i-need-help-with-custom-cheats.671909/#post-10667087
 
+Once you've confirmed the code is a **RAM Write**, convert it to EZ-Flash format using:
 
-> Example Game.cht File
+- [AR2CHT Cheat Converter Tool](https://ar2cht.netlify.app/)
 
-    [Debug]
-    ON=B578,7D,03;B57C,F8,00,A8,00
-    
-    [Extra codes just put a space between the codes like this]
-    #Extra ON Code here and these 2 can be repeated hundreds of times in 1 file. (basically how ever many cheats you want)
-    
-    [GameInfo]
-    Name=2377 - Mother 3 (J)
-    System=GBA
-    Text=vicente
+All confirmed RAM Write conversions work properly with the Omega and Omega DE.
+
+---
+
+Example `.cht` File
+
+```
+[Debug]
+ON=B578,7D,03;B57C,F8,00,A8,00
+
+[Extra codes just put a space between the codes like this]
+#Extra ON Code here and these 2 can be repeated hundreds of times in 1 file.
+
+[GameInfo]
+Name=2377 - Mother 3 (J)
+System=GBA
+Text=vicente
+```
