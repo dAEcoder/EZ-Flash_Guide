@@ -1,21 +1,21 @@
-# 🎮 Homebrew on EZ-Flash
+# Homebrew on EZ-Flash
 
 EZ-Flash cartridges such as the Omega and Omega DE fully support `.gba` homebrew files — including indie games, emulators, and utilities. This page explains how to use them.
 
 ---
 
-## 🧩 What is Homebrew?
+## What is Homebrew?
 
 Homebrew refers to unofficial software created by independent developers. For the Game Boy Advance (GBA), this includes:
 
-- 🎮 Custom games
-- 🧰 Utility tools (e.g., save managers)
-- 🕹️ Emulators for older systems (NES, GB, etc.)
-- 🎨 Tech demos and experiments
+- Custom games  
+- Utility tools (e.g., save managers)  
+- Emulators for older systems (NES, GB, etc.)  
+- Tech demos and experiments  
 
 ---
 
-## 📂 How to Use Homebrew on EZ-Flash
+## How to Use Homebrew on EZ-Flash
 
 1. **Download a `.gba` Homebrew File**  
    Example: [PocketNES](https://github.com/pinobatch/pocketnes)
@@ -38,30 +38,32 @@ Homebrew refers to unofficial software created by independent developers. For th
 
 ---
 
-## 🧠 Tips
+## Tips
 
-- Use **clean `.gba` builds** directly from the developer or trusted sites
-- **Do not use IPS/UPS patches** unless instructed to
-- Most homebrew does **not require a specific save type**, but if something doesn’t save, try patching it
-- Avoid homebrew meant for other platforms like Atari ST or OpenDingux — they will not run on GBA hardware
+- Use **clean `.gba` builds** directly from the developer or trusted sites  
+- Do not use IPS/UPS patches unless instructed to  
+- Most homebrew does not require a specific save type, but if something doesn’t save, try patching it  
+- Avoid homebrew meant for other platforms like Atari ST or OpenDingux — they will not run on GBA hardware  
 
 ---
 
-## 📦 Example GBA Homebrews
+## Example GBA Homebrews
 
-| Name              | Type         | Link |
-|-------------------|--------------|------|
-| PocketNES         | NES Emulator | [GitHub](https://github.com/pinobatch/pocketnes) |
-| Meteo             | Puzzle Game  | [GameBrew](https://www.gamebrew.org/wiki/Meteo_Avi-2-GBA) |
+| Name             | Type         | Link |
+|------------------|--------------|------|
+| PocketNES        | NES Emulator | [GitHub](https://github.com/pinobatch/pocketnes) |
+| Meteo            | Puzzle Game  | [GameBrew](https://www.gamebrew.org/wiki/Meteo_Avi-2-GBA) |
 | GB Video Player  | Video Tool   | [GitHub](https://github.com/LIJI32/GBVideoPlayer) |
 
-## Looking for more?
+---
 
-> Browse [Romhacking.net’s Homebrew section](https://www.romhacking.net/homebrew/) for vetted GBA-compatible projects.
-> Browse [Gamebrew's GBA Section] https://www.gamebrew.org/wiki/Main_Page)
+## Looking for More?
+
+- [Romhacking.net – Homebrew Section](https://www.romhacking.net/homebrew/)  
+- [GameBrew – GBA Homebrew List](https://www.gamebrew.org/wiki/Category:GBA_homebrew)
 
 ---
 
-## 🗣️ Support
+## Support
 
-If you run into issues or want to suggest homebrew for this list, [open an issue](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues) or start a discussion!
+If you run into issues or want to suggest homebrew for this list, [open an issue](https://github.com/ChimeraGaming/GBA-EZ-Flash-2025-Guide/issues) or start a discussion.
