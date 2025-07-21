@@ -1,17 +1,19 @@
-
-# 📦 EZ-Flash Models Overview
+# EZ-Flash Models Overview
 
 This section documents every major EZ-Flash flashcart model from 2001 to present, including their features, compatibility, and quirks. Use this to compare models or look up specifics for the one you own.
 
 ---
 
-## ✅ Currently Supported Models (Newest → Oldest)
+## Currently Supported Models (Newest → Oldest)
 
-> ⚠️ **Note:** *The EZ-Flash Parallel is **not recommended** for most users. See its section below for details.*
+> Note: *The EZ-Flash Parallel is **not recommended** for most users. See its section below for details.*
+
+- <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/VisualBoyAdvance.png" alt="GBA Icon" width="50" /> **[EZ-Flash Air](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Models/GBA/2025_EZ-Flash_Air.md)** (2025)  
+  DS/DS Lite/DSi flashcart in a GBA shell with support for DS and GBA ROMs via NOR flash. Features RTC, cheat support, and Slot-2 expansion compatibility.
 
 - <img src="https://icons.iconarchive.com/icons/sykonist/console/256/Nintendo-DS-icon.png" alt="DS Icon" width="40" /> **[EZ-Flash Parallel](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Models/All_DS/2023_EZ-Flash_Parallel.md)** (2023)  
   Dual-slot NDS/GBA combo cart compatible with Omega DE. Designed to work in tandem with slot-1 cards.  
-  🔴 **Not recommended** due to poor compatibility and user experience. [See full entry.](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Models/All_DS/2023_EZ-Flash_Parallel.md)
+  Not recommended due to poor compatibility and user experience. [See full entry.](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Models/All_DS/2023_EZ-Flash_Parallel.md)
 
 - <img src="https://i.ibb.co/MDtWSqY8/imageedit-4-5525518392.png" alt="GBA SP Icon" width="36" /> **[EZ-Flash Omega Definitive Edition](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/Models/GBA/2021_EZ-Flash_Omega_Definitive_Edition.md)** (2021)  
   The definitive GBA flashcart — fast, reliable, with RTC, real-time save, and full theme support.
@@ -24,22 +26,22 @@ This section documents every major EZ-Flash flashcart model from 2001 to present
 
 ---
 
-### 🆚 Omega vs. Omega Definitive Edition
+### Omega vs. Omega Definitive Edition
 
-| Feature             | **Omega DE (2021)**        | **Omega (2018)**                  |
-|---------------------|-----------------------------|-----------------------------------|
-| 🔋 RTC Support       | ✅ Yes (Improved & reliable) | ⚠️ Yes (Buggy in early units)     |
-| 🖼️ Themes            | ✅ Full `.skn` theme support | ⚠️ Limited / Unofficial           |
-| 🧠 Save Handling     | ✅ Auto NOR/PSRAM save handling | ⚠️ Manual save required for NOR |
-| 📊 Performance       | ✅ Fast loading, fewer bugs  | 🔴 Some slowdowns (e.g. Mother 3) |
-| 🧱 Build Quality     | ✅ Refined shell & battery   | ⚠️ Some early batches had issues |
-| 🆙 Firmware Updates  | ✅ Still supported           | ⚠️ Largely outdated               |
+| Feature             | Omega DE (2021)             | Omega (2018)                     |
+|---------------------|------------------------------|----------------------------------|
+| RTC Support         | Yes (Improved & reliable)     | Yes (Buggy in early units)       |
+| Themes              | Full `.skn` theme support     | Limited / Unofficial             |
+| Save Handling       | Auto NOR/PSRAM save handling  | Manual save required for NOR     |
+| Performance         | Fast loading, fewer bugs      | Some slowdowns (e.g. Mother 3)   |
+| Build Quality       | Refined shell & battery       | Some early batches had issues    |
+| Firmware Updates    | Still supported               | Largely outdated                 |
 
-> 💡 **If you're buying new, go with Omega DE.** It’s worth the upgrade for the added reliability and polish.
+> If you're buying new, go with Omega DE. It’s worth the upgrade for the added reliability and polish.
 
 ---
 
-## ❌ Discontinued / Legacy Models
+## Discontinued / Legacy Models
 
 These are older flashcarts no longer sold or officially supported, but included for archival and reference purposes.
 
@@ -63,4 +65,4 @@ These are older flashcarts no longer sold or officially supported, but included 
 
 ---
 
-📁 Return to the main guide: [EZ-Flash Guide 2025](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/README.md)
+Return to the main guide: [EZ-Flash Guide 2025](https://github.com/ChimeraGaming/EZ-Flash_Guide/blob/main/README.md)
